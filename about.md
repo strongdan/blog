@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I'm a research analyst from Juneau, Alaska. I love swimming, paddle boarding and trail running. I have some experience with Python, and I'm teaching myself to program in Javascript and Ruby. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[danielstrong@mac.com](mailto:danielstrong@mac.com)
