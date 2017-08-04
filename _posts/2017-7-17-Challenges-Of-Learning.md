@@ -1,3 +1,8 @@
+---
+layout: post
+title: Challenges of Learning
+---
+
 Teaching yourself to program is difficult for a number of reasons, but I've found for myself the biggest problem is distraction. I've always been distractible and I've found focusing on one thing for an extended period difficult. Learning online exposes a person to an insane number of great resources, almost on a daily basis, and it’s tough to filter through all of the various tutorials and stick to one thing. One filter that I’ve often applied is a financial one: I don’t like to pay to learn to code when there are so many incredible free resources. Yet I’ve broken this rule as well, in part because I see the value in learning with others and because a financial commitment is pretty good motivation. Plus, paid resources can often be a lot better than the free ones. 
 
 I started my journey into programming many years ago with [Codecademy](https://www.codecademy.com/), and I hopped around quite a lot, not really knowing what I wanted to learn or why. I also spent a bit of time with [Free Code Camp](https://www.freecodecamp.com/), but never achieved a certificate. My plan to return and get my front-end and data visualization certificates. This year I decided that it was reasonable to pay money for Hack Reactor’s boot camp prep program called the [Structured Study Program](http://prep.hackreactor.com/p/hack-reactor-ssp), and the program was great! I experienced pair programming and some of the most challenging and time-intensive programming problems. This program helped me get admitted to Hack Reactor's Part-time Remote Program, but there’s no way I can afford the $18,000 tuition. 
