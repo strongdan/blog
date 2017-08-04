@@ -1,3 +1,8 @@
+---
+layout: post
+title: Choosing a Programming Language
+---
+
 As a person who is still actively trying to learn to program, I might not have the most insight about choosing a programming language. 
 However, since I've spent years struggling, I have a few thoughts on picking a beginning language. First of all, you have to decide what
 you would eventually like to do as a programmer. That's a tough decision when you're just starting out, but try to narrow it down somewhat
