@@ -1,3 +1,8 @@
+---
+layout: post
+title: Basic Data Science Process
+---
+
 There are a variety of ways to approach data processing and interpretation, including ingest, model, query, analyze, and visualize (IMQAV). I’m just getting started with the field of data science, and I prefer a simpler format suggested by Udacity:
 
 1.	Wrangling
