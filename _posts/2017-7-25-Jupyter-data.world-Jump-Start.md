@@ -1,3 +1,8 @@
+---
+layout: post
+title: Jupyter data.world Jump Start
+---
+
 [Jupyter Logo]()
 
 Jupyter (JUlia, PYThon and R) Notebooks is an incredible resource for data analysis and visualization, whether you use R or Python... or some other crazy language. The Jupyter software is an open source project with a large community of contributors. The notebooks are a great way to share code and create tutorials because they meld markup and other rich text elements with Python code that can be run within the notebook. A number of data visualization libraries work quite well in Jupyter. I’m just beginning to discover the power of Jupyter Notebooks, and frankly I'm super excited to share what I've learned. Below I provide a quick overview of how to get started using a data.world data set:
