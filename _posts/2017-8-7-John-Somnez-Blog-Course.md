@@ -5,7 +5,7 @@ title: John Somnez Blog Course
 
 
 
-<>I've got two things I want you to do this time--both of which should help you get some extra traffic.
+<>(I've got two things I want you to do this time--both of which should help you get some extra traffic.
 
 #The first is to write up a post on your blog about this email course.
 
@@ -21,4 +21,4 @@ title: John Somnez Blog Course
 
 Finally, your 2nd homework assignment is to find some post on Simple Programmer and comment on it.
 
-You should already know why this is valuable. Simple Programmer gets over 7,000 views a day, so if you write a quality comment, there is a good chance you'll get some traffic back to your own blog.
+You should already know why this is valuable. Simple Programmer gets over 7,000 views a day, so if you write a quality comment, there is a good chance you'll get some traffic back to your own blog.)
