@@ -13,11 +13,11 @@ title: John Somnez Blog Course
 
 #Wait a minute... won't that generate traffic for me and not for you?
 
-#Well, not really. If you just created your blog, I'm not going to be getting much traffic from it, but there are two reasons I am asking #you to do this:
+Well, not really. If you just created your blog, I'm not going to be getting much traffic from it, but there are two reasons I am asking you to do this:
 
-#1. I am going to be putting a list together of all the blog posts talking about this email course and I'll be linking to them. That means—as long as you write a quality post about this email course—I will link to you from Simple Programmer. This will help you get some traffic (remember how important backlinks are). Just make sure you write a quality post—that's all I ask.
+1. I am going to be putting a list together of all the blog posts talking about this email course and I'll be linking to them. That means—as long as you write a quality post about this email course—I will link to you from Simple Programmer. This will help you get some traffic (remember how important backlinks are). Just make sure you write a quality post—that's all I ask.
 
-2. I would like you to help promote this email course so that I can reach more developers with it. If you are getting some value from this course, please share it. (Here's a handy link to send a quick tweet about the course.)
+2. I would like you to help promote this email course so that I can reach more developers with it. If you are getting some value from this course, please share it. (Here's a handy link to send a quick tweet about the course - http://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiOTUyNDk2NiIsImRlbGl2ZXJ5X2lkIjoiMTE0MTAzOTUwMSIsInVybCI6Imh0dHA6Ly9jdHQuZWMvWHF6aEU_X19zPXZpZnJvaW5ncmtxc2o5Ym45Y3VkIn0)
 
 Finally, your 2nd homework assignment is to find some post on Simple Programmer and comment on it.
 
