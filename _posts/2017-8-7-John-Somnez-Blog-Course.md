@@ -3,22 +3,11 @@ layout: post
 title: John Somnez Blog Course
 ---
 
+As I begin to get this blog up and running, I’m taking John Sonmez’s free email course on getting started blogging. I found John through The Complete Software Developer’s Career Guide, which is a pretty great introduction to both the hard and soft skills necessary to get a job in tech. John has had great success blogging, and it even kick-started his programming career. John’s blog is called [Simple Programmer](https://simpleprogrammer.com/), and he has a lot of great resources for beginner and more advanced programmers.  
+
+John’s [email course](https://simpleprogrammer.com/blog-course) on creating a blog is split up into bite-sized lessons, beginning with picking a topic to write about and “niching down” so that there isn’t a ton of overlap with other bloggers. John also discusses the importance of selecting a very specific name in order to get noticed more easily. This is good advice, but I struggled a great deal with it, partly because I’m a bit of a buffet kind of guy. I like to dabble in a variety of media, and I can see how that might be unappealing for a reader, so I’ve narrowed my blog down to data science with Pandas. Of course, from time to time I might wander off into JavaScript land or talk about symbols in Ruby, but the crux of this blog will be Pandas and data science. If you care to view my posts, dear reader, with my misadventures along the way. 
+
+Note: Yes, this post is promotional, but I'm getting nothing in return, except perhaps a few more readers.
 
 
-<>(I've got two things I want you to do this time--both of which should help you get some extra traffic.
 
-#The first is to write up a post on your blog about this email course.
-
-#Make sure within the post you link to https://simpleprogrammer.com (so, I see the pingback that lets me know you wrote the post) and for #the email course sign-up, you can link to https://simpleprogrammer.com/blog-course.
-
-#Wait a minute... won't that generate traffic for me and not for you?
-
-Well, not really. If you just created your blog, I'm not going to be getting much traffic from it, but there are two reasons I am asking you to do this:
-
-1. I am going to be putting a list together of all the blog posts talking about this email course and I'll be linking to them. That means—as long as you write a quality post about this email course—I will link to you from Simple Programmer. This will help you get some traffic (remember how important backlinks are). Just make sure you write a quality post—that's all I ask.
-
-2. I would like you to help promote this email course so that I can reach more developers with it. If you are getting some value from this course, please share it. (Here's a handy link to send a quick tweet about the course - http://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiOTUyNDk2NiIsImRlbGl2ZXJ5X2lkIjoiMTE0MTAzOTUwMSIsInVybCI6Imh0dHA6Ly9jdHQuZWMvWHF6aEU_X19zPXZpZnJvaW5ncmtxc2o5Ym45Y3VkIn0)
-
-Finally, your 2nd homework assignment is to find some post on Simple Programmer and comment on it.
-
-You should already know why this is valuable. Simple Programmer gets over 7,000 views a day, so if you write a quality comment, there is a good chance you'll get some traffic back to your own blog.)
