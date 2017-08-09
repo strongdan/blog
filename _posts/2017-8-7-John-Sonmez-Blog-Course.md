@@ -1,6 +1,6 @@
 ---
 layout: post
-title: John Somnez Blog Course
+title: John Sonmez Blog Course
 ---
 
 As I begin to get this blog up and running, I’m taking John Sonmez’s free email course on getting started blogging. I found John through The Complete Software Developer’s Career Guide, which is a pretty great introduction to both the hard and soft skills necessary to get a job in tech. John has had great success blogging, and it even kick-started his programming career. John’s blog is called [Simple Programmer](https://simpleprogrammer.com/), and he has a lot of great resources for beginner and more advanced programmers.  
