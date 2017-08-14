@@ -24,3 +24,5 @@ a job as a front-end developer. Honestly, front-end seems to encompass quite a b
 
 I began with Python a few years ago and I really appreciate its readability and ease of learning. I learned via Charles "Chuck" Severance 
 Programming for Everybody course, and I loved it... mostly because of the instructor. 
+
+A great deal has been written on this subject, but I suggest that you not worry too much about which language you start with. Most high-level languages have many of the same features, and once you learn a single language well other languages will be pretty simple to learn. Spend a little bit of time deciding on what field you'd like to enter into - front-end or back-end web development, game development, data analysis, mobile development (iOS or Android), or something else entirely. The most important thing is to get started working with ANY programming language. Trust that you will progress from there.
