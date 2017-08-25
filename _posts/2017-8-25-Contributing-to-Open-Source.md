@@ -1,4 +1,4 @@
 ---
 layout: post
-title: Challenges of Learning
+title: How to Get Started with Open Source
 ---
