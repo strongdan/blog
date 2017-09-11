@@ -59,21 +59,20 @@ value is toggled on and off (remembering the previous state).
 ...
 ```
 
+<h4>Line Magics</h4>
+
+Line magics are defined with __%__ and their arguments only span an single line. For example:
+`%echo "Hello World!` will print out `"hello world"`
+
 <h4>Cell Magics</h4>
 
 Cell magics are defined using __%%__ and can typically only be used once per cell (though there are some exceptions). They recieve an argument from the current line (where they are defined) and from the body of the cell. Here is an example from the [documentation](http://nbviewer.jupyter.org/github/ipython/ipython/blob/1.x/examples/notebooks/Cell%20Magics.ipynb):
 ```
-%%bash
-echo "hi, stdout"
-echo "hello, stderr" >&2
+%%writefile foo.py
+print('hello world')
 ```
+This magic will create a file called foo.py and write `print('hello world')` to the file. If you type `%ls`, you'll see foo.py in your working directory. 
 
-<h4>Line Magics</h4>
-
-The arguments for line magics only span an single line. For example:
-```
-%timeit np.linalg.eigvals(np.random.rand(100,100))
-```
 
 Functions that work with code: %run, %edit, %save, %macro, %recall, etc.
 Functions which affect the shell: %colors, %xmode, %autoindent, %automagic, etc.
