@@ -59,12 +59,12 @@ value is toggled on and off (remembering the previous state).
 ...
 ```
 
-<h4>Line Magics</h4>
+<h3>Line Magics</h3>
 
 Line magics are defined with __%__ and their arguments only span an single line. For example:
 `%echo "Hello World!` will print out `"hello world"`
 
-<h4>Cell Magics</h4>
+<h3>Cell Magics</h3>
 
 Cell magics are defined using __%%__ and can typically only be used once per cell (though there are some exceptions). They recieve an argument from the current line (where they are defined) and from the body of the cell. Here is an example from the [documentation](http://nbviewer.jupyter.org/github/ipython/ipython/blob/1.x/examples/notebooks/Cell%20Magics.ipynb):
 ```
@@ -73,7 +73,7 @@ print('hello world')
 ```
 This magic will create a file called foo.py and write `print('hello world')` to the file. If you type `%ls`, you'll see foo.py in your working directory. 
 
-<h4>Other Interpreters</h4>
+<h3>Other Interpreters</h3>
 
 You can even use magics to run code in other languages' interprters. Using the `%ruby` magic, we can print to the console: 
 
