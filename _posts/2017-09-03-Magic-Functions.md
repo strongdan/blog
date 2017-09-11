@@ -61,8 +61,28 @@ value is toggled on and off (remembering the previous state).
 
 <h4>Cell Magics</h4>
 
+Cell magics are defined using __%%__ and can typically only be used once per cell (though there are some exceptions). They recieve an argument from the current line (where they are defined) and from the body of the cell. Here is an example from the [documentation](http://nbviewer.jupyter.org/github/ipython/ipython/blob/1.x/examples/notebooks/Cell%20Magics.ipynb):
+```
+%%bash
+echo "hi, stdout"
+echo "hello, stderr" >&2
+```
+
 <h4>Line Magics</h4>
+
+The arguments for line magics only span an single line. For example:
+```
+%timeit np.linalg.eigvals(np.random.rand(100,100))
+```
 
 Functions that work with code: %run, %edit, %save, %macro, %recall, etc.
 Functions which affect the shell: %colors, %xmode, %autoindent, %automagic, etc.
 Other functions such as %reset, %timeit, %%writefile, %load, or %paste.
+
+
+IPython has a system of commands we call 'magics' that provide effectively a mini command language that is orthogonal to the syntax of Python and is extensible by the user with new commands. Magics are meant to be typed interactively, so they use command-line conventions, such as using whitespace for separating arguments, dashes for options and other conventions typical of a command-line environment.
+
+Magics come in two kinds:
+
+Line magics: these are commands prepended by one % character and whose arguments only extend to the end of the current line.
+Cell magics: these use two percent characters as a marker (%%), and they receive as argument both the current line where they are declared and the whole body of the cell. Note that cell magics can only be used as the first line in a cell, and as a general principle they can't be 'stacked' (i.e. you can only use one cell magic per cell). A few of them, because of how they operate, can be stacked, but that is something you will discover on a case by case basis.
