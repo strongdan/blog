@@ -3,9 +3,9 @@ layout: post
 title: Getting Started With Magic Functions
 ---
 
-<h3>Magic Functions in Jupyter Notebook</h3>
+<h3>Magic Functions in Jupyter Notebooks</h3>
 
-If you have any experience with the command line interpreters like BASH, you can utilize some basic CLI command-line calls in Jupyter as well. Jupyter comes with a large number of predefined functions ("magics") that utilize command-line-like syntax and are prefaced with % (line-oriented) or %% (cell-oriented). You can run `%magic` to get a list of magic functions in Jupyter Notebooks, and you'll get documentation that looks like this:
+If you have any experience with the command line interpreters like BASH, you can utilize some basic CLI command-line calls in Jupyter as well. Jupyter comes with a large number of predefined functions ("magics") that utilize command-line-like syntax and are prefaced with % or %%. You can also define your own magic functions. Run `%magic` to get a list of magic functions in Jupyter Notebooks, and you'll get documentation that looks like this:
 
 ```
 IPython's 'magic' functions
@@ -75,7 +75,7 @@ This magic will create a file called foo.py and write `print('hello world')` to 
 
 <h3>Other Interpreters</h3>
 
-You can even use magics to run code in other languages' interprters. Using the `%ruby` magic, we can print to the console: 
+You can even use magics to run code in other languages' interpreters. Using the `%ruby` magic, we can print to the console: 
 
 ```
 %%ruby
