@@ -74,14 +74,19 @@ print('hello world')
 This magic will create a file called foo.py and write `print('hello world')` to the file. If you type `%ls`, you'll see foo.py in your working directory. 
 
 <h4>Other Interpreters</h4>
+
 You can even use magics to run code in other languages' interprters. Using the `%ruby` magic, we can print to the console: 
+
 ```
 %%ruby
 puts "Hello from Ruby #{RUBY_VERSION}"
 ```
+
 This will output 'Hello from Ruby 1.9.3'. The same sort of thing can be done using the BASH interpreter:
+
 ```
 %%bash
 echo "hello from $BASH"
 ```
+
 This will output your bash filepath: 'hello from /usr/local/bin/bash'.
