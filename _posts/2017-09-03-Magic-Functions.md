@@ -73,15 +73,15 @@ print('hello world')
 ```
 This magic will create a file called foo.py and write `print('hello world')` to the file. If you type `%ls`, you'll see foo.py in your working directory. 
 
-
-Functions that work with code: %run, %edit, %save, %macro, %recall, etc.
-Functions which affect the shell: %colors, %xmode, %autoindent, %automagic, etc.
-Other functions such as %reset, %timeit, %%writefile, %load, or %paste.
-
-
-IPython has a system of commands we call 'magics' that provide effectively a mini command language that is orthogonal to the syntax of Python and is extensible by the user with new commands. Magics are meant to be typed interactively, so they use command-line conventions, such as using whitespace for separating arguments, dashes for options and other conventions typical of a command-line environment.
-
-Magics come in two kinds:
-
-Line magics: these are commands prepended by one % character and whose arguments only extend to the end of the current line.
-Cell magics: these use two percent characters as a marker (%%), and they receive as argument both the current line where they are declared and the whole body of the cell. Note that cell magics can only be used as the first line in a cell, and as a general principle they can't be 'stacked' (i.e. you can only use one cell magic per cell). A few of them, because of how they operate, can be stacked, but that is something you will discover on a case by case basis.
+<h4>Other Interpreters</h4>
+You can even use magics to run code in other languages' interprters. Using the `%ruby` magic, we can print to the console: 
+```
+%%ruby
+puts "Hello from Ruby #{RUBY_VERSION}"
+```
+This will output 'Hello from Ruby 1.9.3'. The same sort of thing can be done using the BASH interpreter:
+```
+%%bash
+echo "hello from $BASH"
+```
+This will output your bash filepath: 'hello from /usr/local/bin/bash'.
