@@ -3,6 +3,8 @@ layout: post
 title: Getting Started With Magic Functions
 ---
 
+<h3>Magic Functions in Jupyter Notebook</h3>
+
 If you have any experience with the command line interpreters like BASH, you can utilize some basic CLI command-line calls. Jupyter Notebooks come with a large number of predefined functions ("magics") that utilize command-line-like syntax and are prefaced with % (line-oriented) or %% (cell-oriented). You can run `%magic` to get a list of magic functions in Jupyter Notebooks, and you'll get documentation that looks like this:
 
 ```
@@ -28,3 +30,24 @@ obj?, obj??      : Get help, or more help for object (also works as
 
 ...
 ```
+
+If you would like a list of all magics, simply type in `%lsmagic` and you'll get this list:
+
+```
+Available line magics:
+%alias  %alias_magic  %autocall  %automagic  %autosave  %bookmark  %cd  %clear  %cls  %colors  %config  %connect_info  %copy  %ddir  %debug  %dhist  %dirs  %doctest_mode  %echo  %ed  %edit  %env  %gui  %hist  %history  %killbgscripts  %ldir  %less  %load  %load_ext  %loadpy  %logoff  %logon  %logstart  %logstate  %logstop  %ls  %lsmagic  %macro  %magic  %matplotlib  %mkdir  %more  %notebook  %page  %pastebin  %pdb  %pdef  %pdoc  %pfile  %pinfo  %pinfo2  %popd  %pprint  %precision  %profile  %prun  %psearch  %psource  %pushd  %pwd  %pycat  %pylab  %qtconsole  %quickref  %recall  %rehashx  %reload_ext  %ren  %rep  %rerun  %reset  %reset_selective  %rmdir  %run  %save  %sc  %set_env  %store  %sx  %system  %tb  %time  %timeit  %unalias  %unload_ext  %who  %who_ls  %whos  %xdel  %xmode
+
+Available cell magics:
+%%!  %%HTML  %%SVG  %%bash  %%capture  %%cmd  %%debug  %%file  %%html  %%javascript  %%js  %%latex  %%perl  %%prun  %%pypy  %%python  %%python2  %%python3  %%ruby  %%script  %%sh  %%svg  %%sx  %%system  %%time  %%timeit  %%writefile
+
+Automagic is ON, % prefix IS NOT needed for line magics.
+```
+
+
+Cell Magics
+
+Line Magics
+
+Functions that work with code: %run, %edit, %save, %macro, %recall, etc.
+Functions which affect the shell: %colors, %xmode, %autoindent, %automagic, etc.
+Other functions such as %reset, %timeit, %%writefile, %load, or %paste.
