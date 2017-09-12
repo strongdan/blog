@@ -59,6 +59,8 @@ value is toggled on and off (remembering the previous state).
 ...
 ```
 
+If you type `%automagic`, then magic commands can be called without the %. 
+
 <h3>Line Magics</h3>
 
 Line magics are defined with __%__ and their arguments only span an single line. For example:
@@ -90,3 +92,10 @@ echo "hello from $BASH"
 ```
 
 This will output your bash filepath: 'hello from /usr/local/bin/bash'.
+
+You can also execute Python files with the .py extension using the `%run` magic, as well as other Jupyter Notebooks. 
+
+<h3>Setting Environment Variables</h3>
+
+You can manage environment variables of your notebook without restarting the jupyter server process. Some libraries (like theano) use environment variables to control behavior, %env is the most convenient way
+
