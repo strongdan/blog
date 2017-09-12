@@ -45,7 +45,7 @@ Available cell magics:
 Automagic is ON, % prefix IS NOT needed for line magics.
 ```
 
-If you would like to know more about a specific magic function, call that function followed by a question mark, like this `%clear?` and you'll get documentation like this:
+If you would like to know more about a specific magic function, call that function followed by a question mark, like this `%autocall?` and you'll get documentation like this:
 
 ```
 Docstring:
