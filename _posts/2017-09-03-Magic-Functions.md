@@ -3,9 +3,9 @@ layout: post
 title: Getting Started With Magic Functions
 ---
 
-<h3>Magic Functions in Jupyter Notebooks</h3>
+<h3>A Quick Intro to Magic Functions in Jupyter Notebooks</h3>
 
-If you have any experience with the command line interpreters like BASH, you can utilize some basic CLI command-line calls in Jupyter as well. Jupyter comes with a large number of predefined functions ("magics") that utilize command-line-like syntax and are prefaced with % or %%. You can also define your own magic functions and type %automagic to call magic commands without the %. 
+If you have any experience with the command line interpreters like BASH, you can utilize some basic CLI command-line calls in Jupyter in the form of predefined functions ("magics") that utilize command-line-like syntax and are prefaced with % or %%. You can also type %automagic to call magic commands without the %.
 
 Run `%magic` to get a list of magic functions in Jupyter Notebooks and you'll get documentation that looks like this:
 
@@ -99,6 +99,14 @@ You can also execute Python files with the .py extension using the `%run` magic,
 
 `$env` allows you to manage Jupyter Notebook environment variables without having to restart the kernel. If you type `%env` without an argument, you will get a JSON list of all environment variables. 
 
+<h3>Timing</h3>
+
+You can time how long a
+
 <h3>Shell Commands</h3>
 
-You can also execute shell commands from within Jupyter by using the exclamation mark. `!ls *.csv` will list out any csv files and `!pip update numpy` will update your numpy installation. 
+These aren't magic commands, but you can also execute shell commands from within Jupyter by using the exclamation mark. `!ls *.csv` will list out any csv files and `!pip update numpy` will update your numpy installation. Virtually every BASH command will work using the __!__.
+
+<h3>Defining Your Own Magics</h3>
+
+It is possible to define custom magics, either using your own standalone functions or by using a base class from IPython (IPython.core.magic.Magics). This is a bit more advanced feature and requires some understanding of object-oriented programming in Python. If you want to know how to create custom magics, check out the [documentation](https://ipython.org/ipython-doc/3/config/custommagics.html#defining-magics).
