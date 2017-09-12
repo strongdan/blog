@@ -101,12 +101,16 @@ You can also execute Python files with the .py extension using the `%run` magic,
 
 <h3>Timing</h3>
 
-You can time how long a
+You can time how long a statement or expression takes to execute using `%time` and the CPU and wall clock times will be printed. 
+Time execution of a Python statement or expression. `%timeit` does virtually the same thing, but returns the average of the fastest three runs after 100,000 runs.
 
 <h3>Shell Commands</h3>
 
-These aren't magic commands, but you can also execute shell commands from within Jupyter by using the exclamation mark. `!ls *.csv` will list out any csv files and `!pip update numpy` will update your numpy installation. Virtually every BASH command will work using the __!__.
+These aren't magic commands, but you can execute shell commands from within Jupyter by using the exclamation mark. `!ls *.csv` will list out any csv files and `!pip update numpy` will update your numpy installation. Virtually every BASH command will work using the __!__.
 
 <h3>Defining Your Own Magics</h3>
 
 It is possible to define custom magics, either using your own standalone functions or by using a base class from IPython (IPython.core.magic.Magics). This is a bit more advanced feature and requires some understanding of object-oriented programming in Python. If you want to know how to create custom magics, check out the [documentation](https://ipython.org/ipython-doc/3/config/custommagics.html#defining-magics).
+
+<h3>Experiment!</h3>
+This was a very quick introduction to magics and I provided only a few examples, but there are a lot more quite useful magics. Magics can also be combined to create more efficient workflows. You can write SQL queries and R code for different parts of your analysis, and you can even debug using `%debug` or `%%debug`. Play around with magic functions on your own. You'll be impressed with what you can accomplish. 
