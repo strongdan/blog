@@ -105,7 +105,7 @@ You can time how long a statement or expression takes to execute using `%time` a
 
 <h3>Shell Commands</h3>
 
-These aren't magic commands, but you can execute shell commands from within Jupyter by using the exclamation mark. `!ls *.csv` will list out any csv files and `!pip update numpy` will update your numpy installation. Virtually every BASH command will work using the __!__.
+These aren't magic commands, but you can execute shell commands from within Jupyter by using the exclamation mark. For example, `!pip update numpy` will update your numpy installation. Bear in mind that not every BASH command will work using __!__.
 
 <h3>Defining Your Own Magics</h3>
 
