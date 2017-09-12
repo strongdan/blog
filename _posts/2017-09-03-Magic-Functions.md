@@ -5,7 +5,9 @@ title: Getting Started With Magic Functions
 
 <h3>Magic Functions in Jupyter Notebooks</h3>
 
-If you have any experience with the command line interpreters like BASH, you can utilize some basic CLI command-line calls in Jupyter as well. Jupyter comes with a large number of predefined functions ("magics") that utilize command-line-like syntax and are prefaced with % or %%. You can also define your own magic functions. Run `%magic` to get a list of magic functions in Jupyter Notebooks, and you'll get documentation that looks like this:
+If you have any experience with the command line interpreters like BASH, you can utilize some basic CLI command-line calls in Jupyter as well. Jupyter comes with a large number of predefined functions ("magics") that utilize command-line-like syntax and are prefaced with % or %%. You can also define your own magic functions and type %automagic to call magic commands without the %. 
+
+Run `%magic` to get a list of magic functions in Jupyter Notebooks and you'll get documentation that looks like this:
 
 ```
 IPython's 'magic' functions
@@ -59,8 +61,6 @@ value is toggled on and off (remembering the previous state).
 ...
 ```
 
-If you type `%automagic`, then magic commands can be called without the %. 
-
 <h3>Line Magics</h3>
 
 Line magics are defined with __%__ and their arguments only span an single line. For example:
@@ -91,11 +91,14 @@ This will output 'Hello from Ruby 1.9.3'. The same sort of thing can be done usi
 echo "hello from $BASH"
 ```
 
-This will output your bash filepath: 'hello from /usr/local/bin/bash'.
+This will output your BASH filepath: 'hello from /usr/local/bin/bash'.
 
 You can also execute Python files with the .py extension using the `%run` magic, as well as other Jupyter Notebooks. 
 
 <h3>Setting Environment Variables</h3>
 
-You can manage environment variables of your notebook without restarting the jupyter server process. Some libraries (like theano) use environment variables to control behavior, %env is the most convenient way
+`$env` allows you to manage Jupyter Notebook environment variables without having to restart the kernel. If you type `%env` without an argument, you will get a JSON list of all environment variables. 
 
+<h3>Shell Commands</h3>
+
+You can also execute shell commands from within Jupyter by using the exclamation mark. `!ls *.csv` will list out any csv files and `!pip update numpy` will update your numpy installation. 
