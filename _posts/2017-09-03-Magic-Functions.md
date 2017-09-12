@@ -73,7 +73,7 @@ Cell magics are defined using __%%__ and can typically only be used once per cel
 %%writefile foo.py
 print('hello world')
 ```
-This magic will create a file called foo.py and write `print('hello world')` to the file. If you type `%ls`, you'll see foo.py in your working directory. 
+This magic will create a file called __foo.py__ and write `print('hello world')` to the file. If you type `%ls`, you'll see __foo.py__ in your working directory. 
 
 <h3>Other Interpreters</h3>
 
