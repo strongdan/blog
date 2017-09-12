@@ -64,7 +64,7 @@ value is toggled on and off (remembering the previous state).
 <h3>Line Magics</h3>
 
 Line magics are defined with __%__ and their arguments only span an single line. For example:
-`%echo "Hello World!"` will print out `"hello world"`
+`%echo "Hello World!"` will print out `"Hello World!"`
 
 <h3>Cell Magics</h3>
 
