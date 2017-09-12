@@ -101,7 +101,7 @@ You can also execute Python files with the .py extension using the `%run` magic,
 
 <h3>Timing</h3>
 
-You can time how long a statement or expression takes to execute using `%time` and the CPU and wall clock times will be printed after execution. `%timeit` does virtually the same thing, but returns the average of the fastest three runs after 100,000 runs.
+You can time how long a statement or expression takes to execute using `%time` and the CPU and wall clock times will be printed after execution. `%timeit` does virtually the same thing, but returns the average of the fastest three times after 100,000 runs.
 
 <h3>Shell Commands</h3>
 
