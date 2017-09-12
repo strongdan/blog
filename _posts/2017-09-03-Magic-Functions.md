@@ -93,7 +93,7 @@ echo "hello from $BASH"
 
 This will output your BASH filepath: 'hello from /usr/local/bin/bash'.
 
-You can also execute Python files with the .py extension and other Jupyter notebooks using the `%run` magic. `%run foo.py` will print `hello world` to the console. It's also possible to write file contents to standard output using `%pycat`. Typing `%pycat foo.py` will print `print('hello world')` to the console.
+You can also execute Python files with the .py extension and other Jupyter notebooks using the `%run` magic. `%run foo.py` will print `hello world` to the console. It's also possible to write file contents to standard output using `%pycat`. Typing `%pycat foo.py` will print `print('hello world')`.
 
 <h3>Setting Environment Variables</h3>
 
