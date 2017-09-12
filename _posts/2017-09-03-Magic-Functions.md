@@ -97,7 +97,7 @@ You can also execute Python files with the .py extension using the `%run` magic,
 
 <h3>Setting Environment Variables</h3>
 
-`$env` allows you to manage Jupyter Notebook environment variables without having to restart the kernel. If you type `%env` without an argument, you will get a JSON list of all environment variables. 
+`$env` allows you to manage Jupyter Notebook environment variables without having to restart the kernel. If you type `%env` without an argument, you will get a JSON list of all environment variables. You can set environment variables with `%env var=val`, where __val__ is the value you want to set the variable to. 
 
 <h3>Timing</h3>
 
