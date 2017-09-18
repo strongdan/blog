@@ -17,6 +17,8 @@ First and foremost, ensure that you provide a basic readme markdown file to indi
 
 Next, take the time to make your code readable and understandable. Opt for readability over conciseness if you have to choose one. If your code is difficult to understand, programmers who work with you and those who work with your code after you're done will be frustrated. 
 
+Showcasing your code in the form of Jupyter notebooks will make them much more accessible. Jupyter notebooks include functionality for markdown cells and they render well on Github. 
+
 <h3>Functionality and Performance</h3>
 
 It's also important that your code runs without crashing, and does what it's intended to do. If you have time, ensure that your code is performant, but this is less important and can be accomplished during refactoring. 
