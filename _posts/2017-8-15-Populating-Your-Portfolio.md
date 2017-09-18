@@ -23,7 +23,7 @@ Showcasing your code in the form of Jupyter notebooks will make them much more a
 
 It's also important that your code runs without crashing, and does what it's intended to do. Use a test-driven process to debug your code as you work and you will save a great deal of time. Make sure you consider as many edge cases as possible. Those looking at your code certainly will. 
 
-If you have time, ensure that your code is performant, but this is less important and can be accomplished during refactoring. 
+If you have time, ensure that your code is performant, but this should be secondary to functionality and can be accomplished during refactoring. Take the time to research the various Pandas libraries. Creating your own algorithms is often a waste of time considering the vast array of predefined libraries and functions that are provided by the Pandas community. Use Pandas over vanilla Python wherever possible - Pandas dataframes have been optimized for memory performance.   
 
 <h3>Variation</h3>
 
@@ -31,6 +31,4 @@ Make sure that you include some variation, both in the types of languages you us
 
 <h3>Open Source Contributions</h3>
 
-Open source contributions show that you're passionate about something enough to be engaged in a community. That can translate into the  tech work environment, where teamwork is often crucial. Take the time to participate in open source projects. 
-
-
+One last item I'd like to add is open source. Open source contributions show that you're passionate about something enough to be engaged in a community. That can translate well in the tech work environment, where teamwork is often crucial. Taking the time to participate in open source projects indicates that you have interest and initiative, even if you don't yet have superb technical capabilities. 
