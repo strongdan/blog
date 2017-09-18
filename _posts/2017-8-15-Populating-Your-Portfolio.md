@@ -15,13 +15,15 @@ First and foremost, ensure that you provide a basic readme markdown file to indi
 
 <h3>Readability</h3>
 
-Next, take the time to make your code readable and understandable. Opt for readability over conciseness if you have to choose one. If your code is difficult to understand, programmers who work with you and those who work with your code after you're done will be frustrated. 
+Next, take the time to make your code readable and understandable. Opt for readability over conciseness if you have to choose one. If your code is difficult to understand, programmers who work with you and those who work with your code after you're done will be frustrated. Avoid abbreviations as much as possible and take the time to spell out words rather than shortening them. The people who read your code will be grateful. 
 
 Showcasing your code in the form of Jupyter notebooks will make them much more accessible. Jupyter notebooks include functionality for markdown cells and they render well on Github. 
 
 <h3>Functionality and Performance</h3>
 
-It's also important that your code runs without crashing, and does what it's intended to do. If you have time, ensure that your code is performant, but this is less important and can be accomplished during refactoring. 
+It's also important that your code runs without crashing, and does what it's intended to do. Use a test-driven process to debug your code as you work and you will save a great deal of time. Make sure you consider as many edge cases as possible. Those looking at your code certainly will. 
+
+If you have time, ensure that your code is performant, but this is less important and can be accomplished during refactoring. 
 
 <h3>Variation</h3>
 
@@ -29,6 +31,6 @@ Make sure that you include some variation, both in the types of languages you us
 
 <h3>Open Source Contributions</h3>
 
-Open source contributions show that you're passionate about something and engaged in a community. That can translate into the  tech work environment, where teamwork is often crucial. Take the time to participate in open source projects. 
+Open source contributions show that you're passionate about something enough to be engaged in a community. That can translate into the  tech work environment, where teamwork is often crucial. Take the time to participate in open source projects. 
 
 
