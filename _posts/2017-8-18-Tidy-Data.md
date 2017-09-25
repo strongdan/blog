@@ -13,7 +13,7 @@ set of tools are needed to deal with a wide range of un-tidy datasets. This stru
 also makes it easier to develop tidy tools for data analysis, tools that both input and
 output tidy datasets. The advantages of a consistent data structure and matching tools
 are demonstrated with a case study free from mundane data manipulation chores."
-- Hadley Wickham, RStudio in the Journal of Statistical Software
+- Hadley Wickham of RStudio in the Journal of Statistical Software
 
 Wickham, H., 2014. Tidy data. <em>Journal of Statistical Software</em>, 59(10), pp.1-23.
 
