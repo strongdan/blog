@@ -54,8 +54,7 @@ Something that I've noticed can be confusing - particularly for beginners like m
 </tbody>
 
 
-* [CSV](https://en.wikipedia.org/wiki/Comma-separated_values), Comma-Separated Values, files contain ASCII text in tabular format, with fields separated by commas:
-
+[CSV](https://en.wikipedia.org/wiki/Comma-separated_values), Comma-Separated Values, files contain ASCII text in tabular format, with fields separated by commas:
 ```
 cdatetime,address,district,beat,grid,crimedescr,ucr_ncic_code,latitude,longitude
 1/1/06 0:00,3108 OCCIDENTAL DR,3,3C,1115,10851(A)VC TAKE VEH W/O OWNER,2404,38.55042047,-121.3914158
@@ -63,8 +62,7 @@ cdatetime,address,district,beat,grid,crimedescr,ucr_ncic_code,latitude,longitude
 1/1/06 0:00,4 PALEN CT,2,2A,212,10851(A)VC TAKE VEH W/O OWNER,2404,38.65784584,-121.4621009
 ```
 
-* [JSON](https://en.wikipedia.org/wiki/JSON)
-
+[JSON](https://en.wikipedia.org/wiki/JSON)
 ```
 [{"cdatetime":"1/1/06 0:00","address":"3108 OCCIDENTAL DR","district":3,"beat":"3C","grid":1115,"crimedescr":"10851(A)VC TAKE VEH W/O OWNER","ucr_ncic_code":2404,"latitude":38.55042047,"longitude":-121.3914158},
 {"cdatetime":"1/1/06 0:00","address":"2082 EXPEDITION WAY","district":5,"beat":"5A","grid":1512,"crimedescr":"459 PC BURGLARY RESIDENCE","ucr_ncic_code":2404,"latitude":38.47350069,"longitude":-121.4901858},
