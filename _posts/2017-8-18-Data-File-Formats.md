@@ -15,6 +15,54 @@ cdatetime,address,district,beat,grid,crimedescr,ucr_ncic_code,latitude,longitude
 
 ```
 
+<table>
+<thead>
+<tr>
+<th>cdatetime</th>
+<th>address</th>
+<th>district</th>
+<th>beat</th>
+<th>grid</th>
+<th>crimedescr</th>
+<th>ucr_ncic_code</th>
+<th>latitude</th>
+<th>longitude</th>
+</thead>
+<tbody>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+    <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+    <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+</tbody>
 
 
 * [JSON](https://en.wikipedia.org/wiki/JSON)
