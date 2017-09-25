@@ -14,7 +14,7 @@ cdatetime,address,district,beat,grid,crimedescr,ucr_ncic_code,latitude,longitude
 1/1/06 0:00,4 PALEN CT,2,2A,212,10851(A)VC TAKE VEH W/O OWNER,2404,38.65784584,-121.4621009
 
 ```
-
+This CSV file will have a format like this:
 <table>
 <thead>
 <tr>
@@ -64,19 +64,4 @@ cdatetime,address,district,beat,grid,crimedescr,ucr_ncic_code,latitude,longitude
   </tr>
 </tbody>
 
-* [JSON](https://en.wikipedia.org/wiki/JSON)
-* [XML](https://en.wikipedia.org/wiki/XML)
-RDF
-HTML
-CSV
-Text Document
-Plain Text
-Database Files
 
-Other Formats:
-Geospatial Data
-Digital Image
-Digital Audio
-
-
-http://opendatahandbook.org/guide/en/appendices/file-formats/
