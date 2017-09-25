@@ -3,8 +3,10 @@ layout: post
 title: Basic Guide to Data File Formats
 ---
 
-JSON
-XML
+Something that I've noticed can be confusing - particularly for beginners like me - are the various acronyms for data formats and what they're used for. 
+
+[JSON](https://en.wikipedia.org/wiki/JSON)
+[XML](https://en.wikipedia.org/wiki/XML)
 RDF
 HTML
 CSV
