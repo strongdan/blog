@@ -68,11 +68,9 @@ cdatetime,address,district,beat,grid,crimedescr,ucr_ncic_code,latitude,longitude
 * [JSON](https://en.wikipedia.org/wiki/JSON)
 
 ```
-[{ "cdatetime": {1/1/06 0:00,3108 OCCIDENTAL DR,3,3C,1115,10851(A)VC TAKE VEH W/O OWNER,2404,38.55042047,-121.3914158},address:{},district:{},beat,grid,crimedescr,ucr_ncic_code,latitude,longitude}
-
-1/1/06 0:00,2082 EXPEDITION WAY,5,5A,1512,459 PC BURGLARY RESIDENCE,2204,38.47350069,-121.4901858
-1/1/06 0:00,4 PALEN CT,2,2A,212,10851(A)VC TAKE VEH W/O OWNER,2404,38.65784584,-121.4621009
-]
+[{"cdatetime":"1/1/06 0:00","address":"3108 OCCIDENTAL DR","district":3,"beat":3C,"grid":1115,"crimedescr":10851(A)VC TAKE VEH W/O OWNER,"ucr_ncic_code":2404,"latitude":38.55042047,"longitude":-121.3914158},
+{"cdatetime":"1/1/06 0:00","address":2082 EXPEDITION WAY,"district":5,"beat":5A,"grid":1512,"crimedescr":459 PC BURGLARY RESIDENCE,"ucr_ncic_code":2404,"latitude":38.47350069,"longitude":-121.4901858},
+{"cdatetime":"1/1/06 0:00","address":"4 PALEN CT","district":,"beat":,"grid":,"crimedescr":,"ucr_ncic_code":,"latitude":,"longitude":}]
 ```
 * [XML](https://en.wikipedia.org/wiki/XML)
 RDF
