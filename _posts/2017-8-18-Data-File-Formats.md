@@ -9,9 +9,9 @@ Something that I've noticed can be confusing - particularly for beginners like m
 
 ```
 cdatetime,address,district,beat,grid,crimedescr,ucr_ncic_code,latitude,longitude
-1/1/06 0:00,3108,OCCIDENTAL DR,3,3C,1115,10851(A)VC,TAKE VEH W/O OWNER,2404,38.55042047,-121.3914158
-1/1/06 0:00,2082,EXPEDITION WAY,5,5A,1512,459,PC,BURGLARY RESIDENCE,2204,38.47350069,-121.4901858
-1/1/06 0:00,4 PALEN CT,2,2A,212,10851(A)VC,TAKE VEH W/O OWNER,2404,38.65784584,-121.4621009
+1/1/06 0:00,3108 OCCIDENTAL DR,3,3C,1115,10851(A)VC TAKE VEH W/O OWNER,2404,38.55042047,-121.3914158
+1/1/06 0:00,2082 EXPEDITION WAY,5,5A,1512,459 PC BURGLARY RESIDENCE,2204,38.47350069,-121.4901858
+1/1/06 0:00,4 PALEN CT,2,2A,212,10851(A)VC TAKE VEH W/O OWNER,2404,38.65784584,-121.4621009
 
 ```
 
@@ -30,40 +30,39 @@ cdatetime,address,district,beat,grid,crimedescr,ucr_ncic_code,latitude,longitude
 </thead>
 <tbody>
   <tr>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
+    <td>1/1/06 0:00</td>
+    <td>3108 OCCIDENTAL DR</td> 
+    <td>3</td>
+    <td>3C</td>
+    <td>1115</td> 
+    <td>10851(A)VC TAKE VEH W/O OWNER</td>
+    <td>2404</td>
+    <td>38.55042047</td> 
+    <td>-121.3914158</td>
   </tr>
     <tr>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
+    <td>1/1/06 0:00</td>
+    <td>2082 EXPEDITION WAY</td> 
+    <td>5</td>
+    <td>5A</td>
+    <td>1512</td> 
+    <td>459 PC BURGLARY RESIDENCE</td>
+    <td>2204</td>
+    <td>38.47350069</td> 
+    <td>-121.4901858</td>
   </tr>
     <tr>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
+    <td>1/1/06 0:00</td>
+    <td>4 PALEN CT</td> 
+    <td>2</td>
+    <td>2A</td>
+    <td>212</td> 
+    <td>10851(A)VC TAKE VEH W/O OWNER</td>
+    <td>2404</td>
+    <td>38.65784584</td> 
+    <td>-121.4621009</td>
   </tr>
 </tbody>
-
 
 * [JSON](https://en.wikipedia.org/wiki/JSON)
 * [XML](https://en.wikipedia.org/wiki/XML)
