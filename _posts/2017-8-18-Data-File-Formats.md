@@ -66,9 +66,9 @@ cdatetime,address,district,beat,grid,crimedescr,ucr_ncic_code,latitude,longitude
 ```
 [{"cdatetime":"1/1/06 0:00","address":"3108 OCCIDENTAL DR","district":3,"beat":"3C","grid":1115,"crimedescr":"10851(A)VC TAKE VEH W/O OWNER","ucr_ncic_code":2404,"latitude":38.55042047,"longitude":-121.3914158},
 {"cdatetime":"1/1/06 0:00","address":"2082 EXPEDITION WAY","district":5,"beat":"5A","grid":1512,"crimedescr":"459 PC BURGLARY RESIDENCE","ucr_ncic_code":2404,"latitude":38.47350069,"longitude":-121.4901858},
-{"cdatetime":"1/1/06 0:00","address":"4 PALEN CT","district"2:,"beat":"2A","grid":212,"crimedescr":"10851(A)VC TAKE VEH W/O OWNER","ucr_ncic_code":2404,"latitude":38.65784584,"longitude":-121.4621009}]
+{"cdatetime":"1/1/06 0:00","address":"4 PALEN CT","district":2,"beat":"2A","grid":212,"crimedescr":"10851(A)VC TAKE VEH W/O OWNER","ucr_ncic_code":2404,"latitude":38.65784584,"longitude":-121.4621009}]
 ```
-* [XML](https://en.wikipedia.org/wiki/XML)
+[XML](https://en.wikipedia.org/wiki/XML)
 RDF
 HTML
 CSV
