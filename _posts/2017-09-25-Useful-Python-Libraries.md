@@ -5,9 +5,7 @@ title: Some Handy Python Libraries to Get You Started in Data Analysis
 
 <h3>Scientific Computing</h3>
 
-<ul>
-<li>[SciPy](https://docs.scipy.org/doc/)</li>
-</ul>
+- [SciPy](https://docs.scipy.org/doc/)</li>
 
 <h3>Web Scraping</h3>
 
