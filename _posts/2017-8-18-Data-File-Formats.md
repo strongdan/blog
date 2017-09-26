@@ -63,6 +63,12 @@ cdatetime,address,district,beat,grid,crimedescr,ucr_ncic_code,latitude,longitude
 1/1/06 0:00,4 PALEN CT,2,2A,212,10851(A)VC TAKE VEH W/O OWNER,2404,38.65784584,-121.4621009
 ```
 
+[RDF](https://www.w3.org/RDF/)
+
+```
+
+```
+
 [JSON](https://en.wikipedia.org/wiki/JSON), JavaScript Object Notation, files are constructed using JavaScript objects to hold various data types:
 ```
 [{"cdatetime":"1/1/06 0:00","address":"3108 OCCIDENTAL DR","district":3,"beat":"3C","grid":1115,"crimedescr":"10851(A)VC TAKE VEH W/O OWNER","ucr_ncic_code":2404,"latitude":38.55042047,"longitude":-121.3914158},
