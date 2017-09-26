@@ -42,3 +42,4 @@ Examples of statistical functions:
 * histogram: histogram of data
 
 
+https://www.datacamp.com/community/tutorials/statistics-python-tutorial-probability-1#gs.XCU0Z14
