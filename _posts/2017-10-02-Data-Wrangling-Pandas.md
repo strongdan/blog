@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: draft
 title: Intro to Data Wrangling with Pandas
 ---
 
