@@ -45,7 +45,7 @@ Available cell magics:
 Automagic is ON, % prefix IS NOT needed for line magics.
 ```
 
-If you would like to know more about a specific magic function, call that function followed by a question mark, like this `%autocall?` and you'll get documentation for that function:
+If you would like to know more about a specific magic function, call that function followed by a question mark, like this: `%autocall?`. Documentation for that function will show up in the console:
 
 ```
 Docstring:
@@ -105,7 +105,7 @@ You can time how long a statement or expression takes to execute using `%time` a
 
 <h3>Shell Commands</h3>
 
-These aren't magic commands, but you can execute shell commands from within Jupyter by using the exclamation mark. For example, `!pip install numpy` will install numpy. Bear in mind that not every BASH command will work using __!__.
+These aren't magic commands, but you can execute shell commands from within Jupyter by using the exclamation mark. For example, `!pip install numpy` will install numpy. You can also save the output of a shell command to a variable like this: `my_shell_path = !echo $SHELL`. Bear in mind that not every BASH command will work using __!__.
 
 <h3>Defining Your Own Magics</h3>
 
