@@ -118,6 +118,6 @@ This was a very quick introduction to magics and I provided only a few examples,
 
 [Python's Official Documentation](http://ipython.readthedocs.io/en/stable/interactive/magics.html) for magic functions. 
 
-Data analyst, Katya Demidova's [Github @demidovakatya](https://github.com/demidovakatya) excellent and brief [overview](http://cotique.me/blog/ipython-magic) of some handy magics.
+Data analyst [Katya Demidova](https://github.com/demidovakatya)'s excellent and brief [overview](http://cotique.me/blog/ipython-magic) of some handy magics.
 
-S. John Cruchon-Dupeyrat ([Github @john-cd](https://github.com/john-cd)) has provided a great [Jupyter cheat sheet](http://john-cd.com/cheatsheets/Python/Jupyter/) with tons of useful magic commands. 
+[S. John Cruchon-Dupeyrat](https://github.com/john-cd) has provided a great [Jupyter cheat sheet](http://john-cd.com/cheatsheets/Python/Jupyter/) with tons of useful magic commands. 
