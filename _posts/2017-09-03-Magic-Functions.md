@@ -9,7 +9,7 @@ If you have any experience with the command line interpreters like BASH, you can
 
 Run `%magic` to get a list of magic functions in Jupyter Notebooks and you'll get documentation that looks like this:
 
-```
+```text
 IPython's 'magic' functions
 ===========================
 
@@ -22,7 +22,7 @@ features. There are two kinds of magics, line-oriented and cell-oriented.
 
 One of the most useful magics is `%quickref`, which brings up a quick reference card for IPython (Jupyter), including information on magic functions:
 
-```
+```text
 IPython -- An enhanced Interactive Python - Quick Reference Card
 ================================================================
 
@@ -35,7 +35,7 @@ obj?, obj??      : Get help, or more help for object (also works as
 
 If you would like a list of all magics, simply type in `%lsmagic` and you'll get this list:
 
-```
+```text
 Available line magics:
 %alias  %alias_magic  %autocall  %automagic  %autosave  %bookmark  %cd  %clear  %cls  %colors  %config  %connect_info  %copy  %ddir  %debug  %dhist  %dirs  %doctest_mode  %echo  %ed  %edit  %env  %gui  %hist  %history  %killbgscripts  %ldir  %less  %load  %load_ext  %loadpy  %logoff  %logon  %logstart  %logstate  %logstop  %ls  %lsmagic  %macro  %magic  %matplotlib  %mkdir  %more  %notebook  %page  %pastebin  %pdb  %pdef  %pdoc  %pfile  %pinfo  %pinfo2  %popd  %pprint  %precision  %profile  %prun  %psearch  %psource  %pushd  %pwd  %pycat  %pylab  %qtconsole  %quickref  %recall  %rehashx  %reload_ext  %ren  %rep  %rerun  %reset  %reset_selective  %rmdir  %run  %save  %sc  %set_env  %store  %sx  %system  %tb  %time  %timeit  %unalias  %unload_ext  %who  %who_ls  %whos  %xdel  %xmode
 
@@ -47,7 +47,7 @@ Automagic is ON, % prefix IS NOT needed for line magics.
 
 If you would like to know more about a specific magic function, call that function followed by a question mark, like this: `%autocall?`. Documentation for that function will show up in the console:
 
-```
+```text
 Docstring:
 Make functions callable without having to type parentheses.
 
@@ -69,7 +69,7 @@ Line magics are defined with __%__ and their arguments only span an single line.
 <h3>Cell Magics</h3>
 
 Cell magics are defined using __%%__ and can typically only be used once per cell (though there are some exceptions). They recieve an argument from the current line (where they are defined) and from the body of the cell. Here is an example from the [documentation](http://nbviewer.jupyter.org/github/ipython/ipython/blob/1.x/examples/notebooks/Cell%20Magics.ipynb):
-```
+```python
 %%writefile foo.py
 print('hello world')
 ```
@@ -79,14 +79,14 @@ This magic will create a file called __foo.py__ and write `print('hello world')`
 
 You can even use magics to run code in other languages' interpreters. Using the `%ruby` magic, we can print to the console: 
 
-```
+```python
 %%ruby
 puts "Hello from Ruby #{RUBY_VERSION}"
 ```
 
 This will output 'Hello from Ruby 1.9.3'. The same sort of thing can be done using the BASH interpreter:
 
-```
+```python
 %%bash
 echo "hello from $BASH"
 ```
