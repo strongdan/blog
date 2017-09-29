@@ -13,4 +13,4 @@ With [Hacktoberfest](https://hacktoberfest.digitalocean.com/) beginning tomorrow
 
 ![Open Source Friday]({{https://opensourcefriday.com/}}../assets/openSourceFriday.jpg)
 
-[Open Source Friday](https://opensourcefriday.com/) is an initiative created by GitHub folks (and friends) meant to get more people involved in open source projects.  
+[Open Source Friday](https://opensourcefriday.com/) is an initiative created by GitHub folks (and friends) meant to get more people involved in open source projects. The [goal](https://opensource.com/article/17/6/open-source-friday-give-back) is to promote regular, sustainable effort on the part of developers and engage employers in the process. It's a "weekly reminder to give some time back to the projects that power your daily work."
