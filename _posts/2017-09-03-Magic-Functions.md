@@ -113,3 +113,5 @@ It is possible to define custom magics, either using your own standalone functio
 
 <h3>Experiment!</h3>
 This was a very quick introduction to magics and I provided only a few examples, but there are a lot more quite useful magics. Magics can also be combined to create more efficient workflows. You can write SQL queries and R code for different parts of your analysis, and you can even debug using `%debug`. Play around with magic functions on your own. You'll be impressed with what you can accomplish. 
+
+S. John Cruchon-Dupeyrat ([Github @S. John Cruchon-Dupeyrat](https://github.com/john-cd)) has provided a great [Jupyter cheat sheet](http://john-cd.com/cheatsheets/Python/Jupyter/) with tons of useful magic commands. 
