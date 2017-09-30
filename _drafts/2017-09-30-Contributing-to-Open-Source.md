@@ -54,3 +54,5 @@ With [Hacktoberfest](https://hacktoberfest.digitalocean.com/) beginning tomorrow
 [jQuery](https://jquery.org/)'s [guide](https://contribute.jquery.org/open-source/) to getting starting started in open source. 
 
 [24 Pull Requests](https://24pullrequests.com/)
+
+[Contributor 忍者](https://contributor.ninja/)
