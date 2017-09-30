@@ -13,9 +13,7 @@ With [Hacktoberfest](https://hacktoberfest.digitalocean.com/) beginning tomorrow
 
 ![Open Source Initiative]({{https://opensource.org/}}../assets/Opensource.png)
 
-[Open source software](https://opensource.com/resources/what-open-source) has a license allowing anyone ot inspect, modify or enhance. Open source projects "embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency, meritocracy, and community-oriented development." 
-
-s authors make its source code available to others who would like to view that code, copy it, learn from it, alter it, or share it. LibreOffice and the GNU Image Manipulation Program are examples of open source software.
+[Open source software](https://opensource.com/resources/what-open-source) has a license allowing anyone ot inspect, modify or enhance the source code. The authors of these projects make the code available for virtually any purpose. Open source projects "embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency, meritocracy, and community-oriented development." This ethos is seeping into other industries across the world, and has changed the software industry, from small startups to giants like Google and Microsoft.
 
 <h3>Why Contribute?</h3>
 
