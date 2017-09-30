@@ -37,4 +37,6 @@ With [Hacktoberfest](https://hacktoberfest.digitalocean.com/) beginning tomorrow
 
 [Ava](https://github.com/avajs/ava)
 
+[Entry-level issues](https://github.com/HabitRPG/habitica/issues?q=is:open+is:issue+label:%22entry+level+coding%22) on [Habitica](https://github.com/HabitRPG/habitica).
+
 [Up For Grabs](http://up-for-grabs.net/#/)
