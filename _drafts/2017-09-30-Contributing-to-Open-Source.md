@@ -39,4 +39,18 @@ With [Hacktoberfest](https://hacktoberfest.digitalocean.com/) beginning tomorrow
 
 [Entry-level issues](https://github.com/HabitRPG/habitica/issues?q=is:open+is:issue+label:%22entry+level+coding%22) on [Habitica](https://github.com/HabitRPG/habitica).
 
+[Google Summer of Code](https://developers.google.com/open-source/gsoc/)
+
 [Up For Grabs](http://up-for-grabs.net/#/)
+
+[Outreachy](https://www.outreachy.org/)
+
+[Google Code-in](https://developers.google.com/open-source/gci/)
+
+[Facebook Open Academy](https://www.facebook.com/OpenAcademyProgram)
+
+[Mozilla](https://www.mozilla.org/en-US/contribute/)'s [guide](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Introduction) for contributing. 
+
+[jQuery](https://jquery.org/)'s [guide](https://contribute.jquery.org/open-source/) to getting starting started in open source. 
+
+[24 Pull Requests](https://24pullrequests.com/)
