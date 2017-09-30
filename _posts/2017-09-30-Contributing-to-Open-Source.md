@@ -11,7 +11,7 @@ With [Hacktoberfest](https://hacktoberfest.digitalocean.com/) beginning tomorrow
 
 <h3>What is Open Source?</h3>
 
-![Open Source Initiative]({{https://opensource.org/}}../assets/Opensource.svg)
+![Open Source Initiative]({{https://opensource.org/}}../assets/Opensource.png)
 
 [Open source software](https://opensource.com/resources/what-open-source) has a license allowing anyone ot inspect, modify or enhance. Open source projects "embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency, meritocracy, and community-oriented development." 
 
