@@ -9,6 +9,8 @@ title: How to Get Started with Open Source
 
 With [Hacktoberfest](https://hacktoberfest.digitalocean.com/) beginning tomorrow, this seems like a good time to go over how to get started contributing to open source projects. You probably have a sense that contributing is good for your career, but why should you do it? And how do you get started? [Github](https://github.com/github) has an excellent [guide](https://opensource.guide/how-to-contribute/) on participating in open source projects. 
 
+<h3>What is Open Source?</h3>
+
 <h3>Why Contribute?</h3>
 
 <h3>How to Choose a Project</h3>
