@@ -60,9 +60,9 @@ I suggest searching for projects on GitHub, but there are many, many other place
 
 [Entry-level issues](https://github.com/HabitRPG/habitica/issues?q=is:open+is:issue+label:%22entry+level+coding%22) on [Habitica](https://github.com/HabitRPG/habitica).
 
-[jQuery](https://jquery.org/)'s [guide](https://contribute.jquery.org/open-source/) to getting starting started in open source. 
+[jQuery's](https://jquery.org/) [guide](https://contribute.jquery.org/open-source/) to getting starting started in open source. 
 
-[Mozilla](https://www.mozilla.org/en-US/contribute/)'s [guide](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Introduction) for contributing. 
+[Mozilla's](https://www.mozilla.org/en-US/contribute/) [guide](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Introduction) to contributing. 
 
 [Open Hatch](https://openhatch.org/)
 
