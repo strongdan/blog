@@ -3,9 +3,15 @@ layout: post
 title: A few basic statistical tests using SciPy
 ---
 
+<h3>A Quick Refresher on Statistics in Pandas and SciPy</h3>
+
+Like most of us, you may have forgotten most of the details from that mandatory introductory stats class you took in college. Don't worry - I'll give you a quick refresher here. We'll cover some basic statistical tests, when you might want to use them and what the results mean. 
+
+```
 import scipy as sp
 from scipy import stats
 import numpy as np
+```
 
 # Descriptive Statistics
 
