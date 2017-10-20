@@ -2,7 +2,7 @@
 layout: post
 title: Jupyter data.world Jump Start
 ---
-
+from: https://www.dataquest.io/blog/datadotworld-python-tutorial/
 ![Jupyter Logo](assets/main-logo.svg)
 
 This is a super quick introduction to using Jupyter Notebooks for Pandas tasks, although it's quite capable in other languages as well. Jupyter works particularly well with R, for example. For the sake of brevity, I will briefly go over reading in a file using the data.world API, doing some basic data cleaning and visualizing the data using a Jupyter Notebook. 
@@ -21,3 +21,9 @@ Jupyter (JUlia, PYThon and R) Notebooks is an incredible resource for data analy
 
 Data.world has their own API
 
+
+`pip install git+git://github.com/datadotworld/data.world-py.git`
+
+`import datadotworld as dw`
+
+`lds = dw.load_dataset('data-society/the-simpsons-by-the-data')`
