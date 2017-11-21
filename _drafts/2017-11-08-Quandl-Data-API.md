@@ -49,7 +49,7 @@ DATE
 2016-06-30  102.712900
 ```
 
-You can even request a certain number of rows with the optional _rows_ argument: `data = quandl.get("CUR/JPY", rows=5)`. Quandl additionally provides a _returns_ argument that returns clean, well-formatted Numpy array: `data = quandl.get("CUR/JPY", returns="numpy")`. Quandl allows you to perform some basic calculations on the data, like so: `data = quandl.get("FRED/GDP", transformation="rdiff")`.
+You can even request a certain number of rows with the optional _rows_ argument: `data = quandl.get("CUR/JPY", rows=5)`. Quandl additionally provides a _returns_ argument that returns a Numpy array: `data = quandl.get("CUR/JPY", returns="numpy")`. Quandl allows you to perform some basic calculations on the data, like so: `data = quandl.get("FRED/GDP", transformation="rdiff")`.
 
 It's also possible to use cell magics to create a curl request from within a Jupyter notebook like so:
 
