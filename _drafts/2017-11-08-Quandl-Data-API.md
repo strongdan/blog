@@ -26,7 +26,7 @@ The next order of business is to [sign up for a Quandl account](https://www.quan
 ```python
 quandl.ApiConfig.api_key = "YOURAPIKEY"
 ```
-For a full (searchable) list of data products Quandl offers, you can check [here](https://www.quandl.com/search?query=), but the [Data Organization page](https://docs.quandl.com/docs/data-organization) provides, shall we say, a bit more organized look at the available tables. You'll need to locate the Quandl code for the dataset you wish to retrieve via the API. For example, the currency exchange rate time series for the USA and Japan has a Quandl code of [CUR/JPY](https://www.quandl.com/data/CUR/JPY). You can download an entire time series data set using `quandl.bulkdownload("CUR/JPY")`, but there are also methods for retrieving data in a specified date range: `mydata = quandl.get("CUR/JPY", start_date="2016-06-15", end_date="2016-06-30")`. Printing mydata will return a table with the requested data:
+For a full (searchable) list of data products Quandl offers, you can check [here](https://www.quandl.com/search?query=), but the [Data Organization page](https://docs.quandl.com/docs/data-organization) provides, shall we say, a bit more organized look at the available tables. You'll need to locate the Quandl code for the dataset you wish to retrieve via the API. For example, the currency exchange rate time series for the USA and Japan has a Quandl code of [CUR/JPY](https://www.quandl.com/data/CUR/JPY). You can download an entire time series data set using `quandl.bulkdownload("CUR/JPY")`, but there are also methods for parsing data prior to retrieval. You can specify a date range using the _start_date_ and _end_date_ arguments: `mydata = quandl.get("CUR/JPY", start_date="2016-06-15", end_date="2016-06-30")`. Here is what the requested data looks like:
 
 ```
                   RATE
@@ -49,5 +49,13 @@ DATE
 2016-06-30  102.712900
 ```
 
-You can even request a certain number of rows with the optional _rows_ argument: `data = quandl.get("CUR/JPY", rows=5)`. Quandl additionally provides a _numpy_ argument that returns clean, well-formatted Numpy array: `data = quandl.get("CUR/JPY", returns="numpy")`
+You can even request a certain number of rows with the optional _rows_ argument: `data = quandl.get("CUR/JPY", rows=5)`. Quandl additionally provides a _returns_ argument that returns clean, well-formatted Numpy array: `data = quandl.get("CUR/JPY", returns="numpy")`. Quandl allows you to perform some basic calculations on the data, like so: `data = quandl.get("FRED/GDP", transformation="rdiff")`.
 
+It's also possible to use cell magics to create a curl request from within a Jupyter notebook like so:
+
+`!curl "https://www.quandl.com/api/v3/datasets/FRED/GDP.csv?collapse=annual&rows=6&order=asc&column_index=1&api_key=YOURAPIKEY"`
+
+This command concatenates (1) the requested data set URL with (2) the number of rows, (3) the sorting order, (4) the column index, and (5) the user's API key. You can find more details on the elements of this call [here](https://docs.quandl.com/docs/quick-start-examples-1).
+
+Links
+Full list of [time series parameters and table transformations](https://docs.quandl.com/docs/parameters-2)
