@@ -48,3 +48,6 @@ DATE
 2016-06-29  102.646501
 2016-06-30  102.712900
 ```
+
+You can even request a certain number of rows with the optional _rows_ argument: `data = quandl.get("CUR/JPY", rows=5)`. Quandl additionally provides a _numpy_ argument that returns clean, well-formatted Numpy array: `data = quandl.get("CUR/JPY", returns="numpy")`
+
