@@ -59,5 +59,5 @@ It's also possible to use cell magics to create a curl request from within a Jup
 
 In order to write this command, simply concatenate the following: (1) the requested data set URL with (2) the number of rows, (3) the sorting order, (4) the column index, and (5) the user's API key. You can find more details on the elements of this call [here](https://docs.quandl.com/docs/quick-start-examples-1). Not all of these parameters are required. 
 
-Links
+### Links
 Full list of [time series parameters and table transformations](https://docs.quandl.com/docs/parameters-2)
