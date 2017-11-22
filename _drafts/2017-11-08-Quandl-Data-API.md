@@ -51,7 +51,7 @@ DATE
 
 You can even request a certain number of rows with the optional _rows_ argument: `data = quandl.get("CUR/JPY", rows=5)`. Quandl additionally provides a _returns_ argument that returns a Numpy array: `data = quandl.get("CUR/JPY", returns="numpy")`. Quandl allows you to perform some basic calculations on the data, like so: `data = quandl.get("FRED/GDP", transformation="rdiff")`.
 
-It's also possible to use cell magics to create a curl request from within a Jupyter notebook like so:
+It's also possible to use a shell curl request from within a Jupyter notebook using the eclamation point:
 
 ```
 !curl "https://www.quandl.com/api/v3/datasets/FRED/GDP.csv?collapse=annual&rows=6&order=asc&column_index=1&api_key=YOURAPIKEY"
