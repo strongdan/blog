@@ -53,7 +53,7 @@ You can even request a certain number of rows with the optional _rows_ argument:
 
 It's also possible to use cell magics to create a curl request from within a Jupyter notebook like so:
 
-```ruby
+```shell
 !curl "https://www.quandl.com/api/v3/datasets/FRED/GDP.csv?collapse=annual&rows=6&order=asc&column_index=1&api_key=YOURAPIKEY"
 ```
 
