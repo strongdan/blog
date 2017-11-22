@@ -53,7 +53,9 @@ You can even request a certain number of rows with the optional _rows_ argument:
 
 It's also possible to use cell magics to create a curl request from within a Jupyter notebook like so:
 
-`!curl "https://www.quandl.com/api/v3/datasets/FRED/GDP.csv?collapse=annual&rows=6&order=asc&column_index=1&api_key=YOURAPIKEY"`
+```python
+!curl "https://www.quandl.com/api/v3/datasets/FRED/GDP.csv?collapse=annual&rows=6&order=asc&column_index=1&api_key=YOURAPIKEY"
+```
 
 This command concatenates (1) the requested data set URL with (2) the number of rows, (3) the sorting order, (4) the column index, and (5) the user's API key. You can find more details on the elements of this call [here](https://docs.quandl.com/docs/quick-start-examples-1).
 
