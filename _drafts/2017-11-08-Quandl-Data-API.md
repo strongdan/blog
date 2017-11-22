@@ -28,7 +28,7 @@ quandl.ApiConfig.api_key = "YOURAPIKEY"
 ```
 For a full (searchable) list of data products Quandl offers, you can check [here](https://www.quandl.com/search?query=), but the [Data Organization page](https://docs.quandl.com/docs/data-organization) provides, shall we say, a bit more organized look at the available tables. You'll need to locate the Quandl code for the dataset you wish to retrieve via the API. For example, the currency exchange rate time series for the USA and Japan has a Quandl code of [CUR/JPY](https://www.quandl.com/data/CUR/JPY). You can download an entire time series data set using `quandl.bulkdownload("CUR/JPY")`, but there are also methods for parsing data prior to retrieval. You can specify a date range using the _start_date_ and _end_date_ arguments: `mydata = quandl.get("CUR/JPY", start_date="2016-06-15", end_date="2016-06-30")`. Here is what the requested data looks like:
 
-
+```
                   RATE
 DATE                  
 2016-06-15  105.941000
@@ -47,7 +47,7 @@ DATE
 2016-06-28  102.524101
 2016-06-29  102.646501
 2016-06-30  102.712900
-
+```
 
 You can even request a certain number of rows with the optional _rows_ argument: `data = quandl.get("CUR/JPY", rows=5)`. Quandl additionally provides a _returns_ argument that returns a Numpy array: `data = quandl.get("CUR/JPY", returns="numpy")`. Quandl allows you to perform some basic calculations on the data, like so: `data = quandl.get("FRED/GDP", transformation="rdiff")`.
 
