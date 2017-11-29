@@ -11,3 +11,5 @@ You can see examples of my work on my [portfolio](http://danstrong.tech)
 ### Contact me
 
 [danielstrong@mac.com](mailto:danielstrong@mac.com)
+
+<a href="http://simpleprogrammer.com/2015/03/02/my-free-blogging-course-is-getting-unbelievable-results/"><img src="http://simpleprogrammer.com/wp-content/uploads/2015/04/badge.png"></a>
