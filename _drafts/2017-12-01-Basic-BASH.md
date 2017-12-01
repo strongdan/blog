@@ -3,9 +3,9 @@ layout: post
 title: Getting Started with BASH
 ---
 
-https://itsfoss.com/linux-command-tricks/?utm_source=facebook&utm_medium=social&utm_campaign=SocialWarfare
+# A Handful of Basic BASH Commands to Get You Started Using the Command Line
 
-###Navigating Between Directories
+### Navigating Between Directories
 Print the directory you are in `pwd`
 
 Navigate to home directory (typically ) `cd ~`
@@ -16,7 +16,7 @@ Navigate up more than one level `cd ../..`
 
 Navigate to previous directory `cd -`
 
-###Working with Files
+### Working with Files
 List working directory contents `ls`
 
 Touch a file to create it or update modified datetime `touch file.txt`
@@ -38,13 +38,12 @@ Reuse last item with `$!` eg. `cd !$`
 
 Reuse previous command with `!!` eg. `sudo !!``
 
-###Searching
+### Searching
 Search commands previously used `ctrl + r`
 
 Find files with particular text using grep `grep -Pri search_term filepath/file.txt`
 
-###Getting Help
-
+### Getting Help
 Finding out how to use a command `command --help`
 
 Finding manual pages `man` or `man command`
@@ -53,4 +52,4 @@ Finding manual pages `man` or `man command`
 
 
 
-
+https://itsfoss.com/linux-command-tricks/?utm_source=facebook&utm_medium=social&utm_campaign=SocialWarfare
