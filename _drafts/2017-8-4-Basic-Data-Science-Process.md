@@ -19,3 +19,4 @@ The conclusions phase is where an analyst’s findings are drawn together into a
 I’ll outline this process using the Lahman baseball statistics below:
 
 
+https://medium.freecodecamp.org/i-ranked-all-the-best-data-science-intro-courses-based-on-thousands-of-data-points-db5dc7e3eb8e
