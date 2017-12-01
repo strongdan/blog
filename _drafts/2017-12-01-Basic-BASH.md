@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with BASH
 ---
 
-# A Handful of Basic BASH Commands to Get You Started Using the Command Line
+# A Handful of Basic Commands to Get You Started Using the Command Line
 
 ### Some Basic Commands
 Print to the console `echo "Hello"`
@@ -52,6 +52,8 @@ Copy a file `cp file_name directory_name`
 
 Edit a file `nano filename` or `vi filename`
 
+Rename a file or directory `mv file.txt file2.txt`
+
 Batch rename files `rename –v 's/foo/bar/g' *`
 
 ### Multiple Commands
@@ -74,10 +76,20 @@ Find a text string in files `grep -Pri search_term filepath/file.txt`
 
 Find a file `find . –name "*.txt" –mtime 5`
 
+Find a directory using _locate_ `locate directory`
+
+List contents several directories deep `ls dirname /*/*`
+
+Search text and return lines that match a pattern `egrep [command line options] <pattern> [path]`
+
+Regular expressions
+
 ### Getting Help
 Finding out how to use a command `command --help`
 
 Finding manual pages `man` or `man command`
+
+Search man pages using a keyword `man -k search_term`
 
 ### Working With Text
 Move to end of current line `ctrl-E`
@@ -91,17 +103,31 @@ Move to beginning of current line `ctrl-A`
 `Ctrl + w` Delete the word / argument left of the cursor
 `Ctrl + l` or `clear` Clear the screen
 
+`Alt-b` moves back one word
+`Alt-f` moves forward one word
+
 ### Redirection/Piping
 
 `ps aux | grep init`
 
 `ls –l | more`
 
-### Running a SHELL Script
+### Using SHELL Scripts
 `./scriptname.sh`
 
 ### Aliases
 
+### Working with Permissions
+
+### Filters
+
+### Process Management
+
+
+
 https://itsfoss.com/linux-command-tricks/?utm_source=facebook&utm_medium=social&utm_campaign=SocialWarfare
 
 https://linuxacademy.com/blog/linux/tutorial-the-best-tips-tricks-for-bash-explained/
+
+### Useful Links
+* [Bash Shortcuts](https://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/)
