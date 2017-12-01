@@ -13,6 +13,10 @@ Print to the console `echo "Hello"`
 ### Working With Directories
 Print the directory you are in `pwd`
 
+List working directory contents `ls`
+
+List subdirectories `ls -d */`
+
 Navigate to home directory (typically ) `cd ~`
 
 Navigate to a specific directory `cd my_directory`
@@ -30,10 +34,6 @@ Delete an empty directory `rmdir`
 Delete a directory and its contents `rmdir -rf directory_name`
 
 ### Working with Files
-List working directory contents `ls`
-
-List subdirectories `ls -d */`
-
 Touch a file to create it or update modified datetime `touch file.txt`
 
 Read a file with less `less file.txt` or cat `cat file.txt`
