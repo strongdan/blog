@@ -12,7 +12,7 @@ The command line is a great way to quickly and efficiently work with files, and 
 
 **LS** - View the contents of your current directory with _ls_: `ls`. You can view a long-form list with `ls -l` or view hidden files with `ls -a`. 
 
-**TOUCH** - You can create a file using _touch_: `touch file` and then type `ls` again to view it. If you type `touch file` again, the updated datetime for that file will be updated to the time you touched it. 
+**TOUCH** - You can create a file using _touch_: `touch file` and then type `ls` again to view it. If you type `touch file` again, the date/time modified for that file will be updated to the time you touched it. 
 
 **ECHO** - Start interacting with the terminal by printing to standard output using _echo_: `echo "Hello"`
 
