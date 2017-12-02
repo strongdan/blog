@@ -8,17 +8,17 @@ title: Getting Started with BASH
 The command line is a great way to quickly and efficiently work with files, and often it's the only way to accomplish certain tasks. If you're not already familiar with BASH (Bourne-Again SHell), this post is a very quick and dirty review of some command and shortcuts to get you started navigating your computer from the command line. Open up your terminal on macOS or any flavor of Linux (I can't guarantee this will work in Windows Powershell. Only Windows 10 has a BASH shell). 
 
 ### Some Basic Commands
-**PWD** You can also print the directory you are in using _pwd_ (print working directory): `pwd`
+**PWD** - You can also print the directory you are in using _pwd_ (print working directory): `pwd`
 
-**LS** View the contents of your current directory with _ls_: `ls`. You can view a long-form list with `ls -l` or view hidden files with `ls -a`. 
+**LS** - View the contents of your current directory with _ls_: `ls`. You can view a long-form list with `ls -l` or view hidden files with `ls -a`. 
 
-**TOUCH** You can create a file using _touch_: `touch file` and then type `ls` again to view it. If you type `touch file` again, the updated datetime for that file will be updated to the time you touched it. 
+**TOUCH** - You can create a file using _touch_: `touch file` and then type `ls` again to view it. If you type `touch file` again, the updated datetime for that file will be updated to the time you touched it. 
 
-**Echo** Start interacting with the terminal by printing to standard output using _echo_: `echo "Hello"`
+**ECHO** - Start interacting with the terminal by printing to standard output using _echo_: `echo "Hello"`
 
 You can also use _echo_ to write to file like this: `echo "Here is some text" > file2`, which will both create the file for you and write to it. If you try this again, it will overwrite your previous text. If you would like to append text to this file, you will need two _>_: `echo "Here is more text >> file`.
 
-**CAT** If you would like to take a look at the file you just wrote to, type `cat file2`. 
+**CAT** - If you would like to take a look at the file you just wrote to, type `cat file2`. 
 
 ### Working With Directories
 Navigate to your home directory (typically /bin/bash/user) `cd ~`
