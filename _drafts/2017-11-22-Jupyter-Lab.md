@@ -22,6 +22,10 @@ jupyter serverextension enable --py jupyterlab --sys-prefix
 
 There is another method of installing Jupyterlab from Github, which is outlined out on the official [markdown file](https://github.com/jupyterlab/jupyterlab). In order to start Jupyterlab, simply type `jupyter lab` in your shell, and a new session will open in your browser. JupyterLab uses CSS Variables for styling, so only the latest versions of Chrome, Safari and Firefox are supported. 
 
+Here's what it looks like "in the flesh":
+
+![Jupyterlab](assets/img/jupyerlab.png)
+
 ### Links
 
 [JupyterLab Official Documentation](http://jupyterlab-tutorial.readthedocs.io/en/latest/)
