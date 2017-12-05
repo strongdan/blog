@@ -7,7 +7,7 @@ title: A few basic statistical tests using SciPy
 
 Like most of us, you may have forgotten most of the details from that mandatory introductory stats class you took in college. Don't worry - I'll give you a quick refresher here. We'll cover some basic statistical tests, when you might want to use them and what the results mean. 
 
-```
+```python
 import scipy as sp
 from scipy import stats
 import numpy as np
