@@ -137,4 +137,4 @@ https://linuxacademy.com/blog/linux/tutorial-the-best-tips-tricks-for-bash-expla
 ### Useful Links
 * [Bash Shortcuts](https://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/)
 * Ryan's Tutorial's [Cheat Sheet](https://ryanstutorials.net/linuxtutorial/cheatsheet.php)
-
+* https://medium.freecodecamp.org/conquering-the-command-line-f85f5e46c07c
