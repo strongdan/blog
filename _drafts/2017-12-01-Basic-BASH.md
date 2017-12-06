@@ -23,7 +23,7 @@ You can also use _echo_ to write to file like this: `echo "Here is some text" > 
 **CAT** - If you would like to take a look at the file you just wrote to, type `cat file2`. 
 
 ### Working With Directories
-_cd_ is the command used to change directories. It takes one parameter - the absolute or relative filepath you would like to move to (_cd_ with no parameters takes you to your home directory).
+**CD** is the command used to change directories. It takes one parameter - the absolute or relative filepath you would like to move to (_cd_ with no parameters takes you to your home directory).
 
 Navigate to your home directory (typically /bin/bash/user) `cd ~`
 
