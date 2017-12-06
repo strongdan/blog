@@ -16,9 +16,8 @@ There are a handful of bash commands you will use often, so let's get familiar w
 
 **`touch`** - You can create a file using _touch_: `touch file` and then type `ls` again to view it. If you type `touch file` again, the date/time modified for that file will be updated to the time you touched it. 
 
-**`echo`** - Start interacting with the terminal by printing to standard output using _echo_: `echo "Hello"`
-
-You can also use _echo_ to write to file like this: `echo "Here is some text" > file2`, which will both create the file for you and write to it. If you try this again, it will overwrite your previous text. If you would like to append text to this file, you will need two _>_: `echo "Here is more text >> file`.
+**`echo`** - Start interacting with the terminal by printing to standard output using _echo_: `echo "Hello"`. 
+You can also use _echo_ to write to file like this: `echo "Here is some text" > file2`, which will both create the file for you and write to it. If you try this again, it will overwrite your previous text. If you would like to append text to this file, you will need to use _>>_ like this: `echo "Here is more text >> file`.
 
 **`cat`** - If you would like to take a look at the file you just wrote to, type `cat file2`. 
 
@@ -44,7 +43,7 @@ You can also use _echo_ to write to file like this: `echo "Here is some text" > 
 List subdirectories `ls -d */`
 
 ### Working with Files
-Although files and directories are technically the same thing in \*nix operating systems, different commands are used for working with each one. 
+Although files and directories are technically the same thing in \*nix operating systems, some different commands are used for working with files. 
 
 **`less`** and **`cat`** Read a file with less `less file.txt` or cat `cat file.txt`
 Less is a file reader that returns a single screen at a time and allows the user to scroll through the file. Cat is short for concatenate, and outputs results to standard output, but it can be used to quickly view the contents of files as long as you don't need to scroll.
