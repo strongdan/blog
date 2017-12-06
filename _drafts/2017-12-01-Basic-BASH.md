@@ -25,7 +25,7 @@ You can also use _echo_ to write to file like this: `echo "Here is some text" > 
 ### Working With Directories
 **CD** is the command used to change directories. It takes one parameter - the absolute or relative filepath you would like to move to (_cd_ with no parameters takes you to your home directory).
 
-Navigate to your home directory (typically /bin/bash/user) `cd ~`
+**`cd ~`** Navigate to your home directory (typically /bin/bash/user) `cd ~`
 
 Navigate to a specific directory `cd my_directory`
 
