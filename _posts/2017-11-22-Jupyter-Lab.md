@@ -20,7 +20,9 @@ pip install jupyterlab
 jupyter serverextension enable --py jupyterlab --sys-prefix
 ```
 
-There is another method of installing Jupyterlab from Github, which is outlined out on the official [markdown file](https://github.com/jupyterlab/jupyterlab). In order to start Jupyterlab, simply type `jupyter lab` in your shell, and a new session will open in your browser. JupyterLab uses CSS Variables for styling, so only the latest versions of Chrome, Safari and Firefox are supported. 
+There is another method of installing Jupyterlab from Github, which is outlined out on the official [markdown file](https://github.com/jupyterlab/jupyterlab). 
+
+In order to start Jupyterlab, simply type `jupyter lab` in your shell, and a new session will open in your browser. JupyterLab uses CSS Variables for styling, so only the latest versions of Chrome, Safari and Firefox are supported. 
 
 Here's what it looks like "in the flesh":
 
@@ -45,4 +47,7 @@ You can map keys to match your favorite text editor or IDE
 
 ### Links
 
-[JupyterLab Official Documentation](http://jupyterlab-tutorial.readthedocs.io/en/latest/)
+* [JupyterLab Official Documentation](http://jupyterlab-tutorial.readthedocs.io/en/latest/)
+* [JupyterLab Tutorial](http://jupyterlab-tutorial.readthedocs.io/en/latest/)
+* [npm Installation](https://www.npmjs.com/package/jupyterlab)
+* [conda Installation](https://anaconda.org/conda-forge/jupyterlab)
