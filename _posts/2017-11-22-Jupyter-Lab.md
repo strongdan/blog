@@ -28,19 +28,19 @@ Here's what it looks like "in the flesh":
 
 You can open multiple tabs and have several Python or R kernels running side-by-side. 
 
-![tabs](tabs.png)
+![tabs](assets/tabs.png)
 
 JupyterLab supports a number of different programming languages:
 
-![languages](languages.png)
+![languages](assets/languages.png)
 
 There's a built-in python console
 
-![console](console.png)
+![console](assets/console.png)
 
 You can map keys to match your favorite text editor or IDE
 
-![keymap](keymap.png)
+![keymap](assets/keymap.png)
 
 
 ### Links
