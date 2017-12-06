@@ -3,11 +3,13 @@ layout: post
 title: Getting Started with BASH
 ---
 
-# Some Basic BASH Commands to Get You Started With the Command Line
+## Some Basic BASH Commands to Get You Started With the Command Line
 
-The command line is a great way to quickly and efficiently work with files, and often it's the only way to accomplish certain tasks. If you're not already familiar with BASH (Bourne-Again SHell), this post is a very quick and dirty review of some command and shortcuts to get you started navigating your computer from the command line. Open up your terminal on macOS or any flavor of Linux (I can't guarantee this will work in Windows Powershell. Only Windows 10 has a BASH shell). 
+The command line is a great way to quickly and efficiently work with files, and sometimes it's the only way to accomplish certain tasks. If you're not already familiar with BASH (Bourne-Again SHell), this post is a very quick and dirty review of some command and shortcuts to get you started navigating your computer from the command line. Open up your terminal on macOS or any flavor of Linux (I can't guarantee these commands will work with Windows Powershell. FYI only Windows 10 has a BASH shell). 
 
 ### Some Basic Commands
+There are a handful of bash commands you will use often, so let's get familiar with them right off the bat. 
+
 **PWD** - You can also print the directory you are in using _pwd_ (print working directory): `pwd`
 
 **LS** - View the contents of your current directory with _ls_: `ls`. You can view a long-form list with `ls -l` or view hidden files with `ls -a`. 
@@ -21,13 +23,13 @@ You can also use _echo_ to write to file like this: `echo "Here is some text" > 
 **CAT** - If you would like to take a look at the file you just wrote to, type `cat file2`. 
 
 ### Working With Directories
+_cd_ is the command used to change directories. It takes one parameter - the absolute or relative filepath you would like to move to (_cd_ with no parameters takes you to your home directory).
+
 Navigate to your home directory (typically /bin/bash/user) `cd ~`
 
 Navigate to a specific directory `cd my_directory`
 
 Navigate up a level `cd ..`
-
-List subdirectories `ls -d */`
 
 Navigate up more than one level `cd ../..`
 
@@ -38,6 +40,8 @@ Make a new directory `mkdir directory_name`
 Delete an empty directory `rmdir`
 
 Delete a directory and its contents `rmdir -rf directory_name`
+
+List subdirectories `ls -d */`
 
 ### Working with Files
 
@@ -128,7 +132,7 @@ Move to beginning of current line `ctrl-A`
 
 ### Process Management
 
-
+### 
 
 https://itsfoss.com/linux-command-tricks/?utm_source=facebook&utm_medium=social&utm_campaign=SocialWarfare
 
