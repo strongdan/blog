@@ -46,7 +46,7 @@ List subdirectories `ls -d */`
 Although files and directories are technically the same thing in \*nix operating systems, some different commands are used for working with files. 
 
 **`less`** and **`cat`** Read a file with less `less file.txt` or cat `cat file.txt`
-Less is a file reader that returns a single screen at a time and allows the user to scroll through the file. Cat is short for concatenate, and outputs results to standard output, but it can be used to quickly view the contents of files as long as you don't need to scroll.
+Less is a file reader that returns a single screen at a time and allows the user to scroll through the file. Cat is short for concatenate, and outputs results to standard output, and it can be used to quickly view the contents of files as long as you don't need to scroll.
 
 **`>`** Empty a file without deleting it `> file.txt`
 
