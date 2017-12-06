@@ -9,13 +9,13 @@ I was pleasantly surprised to find [JupyterLab](https://github.com/jupyterlab/ju
 
 Probably the easiest way to get JupyterLab is with Anaconda, but you can also install it using conda: 
 
-```shell
+```
 conda install -c conda-forge jupyterlab
 ```
 
 ...or with the Python package manager:
 
-```shell
+```
 pip install jupyterlab
 jupyter serverextension enable --py jupyterlab --sys-prefix
 ```
