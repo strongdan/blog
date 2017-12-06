@@ -10,73 +10,68 @@ The command line is a great way to quickly and efficiently work with files, and 
 ### Some Basic Commands
 There are a handful of bash commands you will use often, so let's get familiar with them right off the bat. 
 
-**PWD** - You can also print the directory you are in using _pwd_ (print working directory): `pwd`
+**`pwd`** - You can also print the directory you are in using _pwd_ (print working directory)
 
-**LS** - View the contents of your current directory with _ls_: `ls`. You can view a long-form list with `ls -l` or view hidden files with `ls -a`. 
+**`ls`** - View the contents of your current directory with _ls_: `ls`. You can view a long-form list with `ls -l` or view hidden files with `ls -a`. 
 
-**TOUCH** - You can create a file using _touch_: `touch file` and then type `ls` again to view it. If you type `touch file` again, the date/time modified for that file will be updated to the time you touched it. 
+**`touch`** - You can create a file using _touch_: `touch file` and then type `ls` again to view it. If you type `touch file` again, the date/time modified for that file will be updated to the time you touched it. 
 
-**ECHO** - Start interacting with the terminal by printing to standard output using _echo_: `echo "Hello"`
+**`echo`** - Start interacting with the terminal by printing to standard output using _echo_: `echo "Hello"`
 
 You can also use _echo_ to write to file like this: `echo "Here is some text" > file2`, which will both create the file for you and write to it. If you try this again, it will overwrite your previous text. If you would like to append text to this file, you will need two _>_: `echo "Here is more text >> file`.
 
-**CAT** - If you would like to take a look at the file you just wrote to, type `cat file2`. 
+**`cat`** - If you would like to take a look at the file you just wrote to, type `cat file2`. 
 
 ### Working With Directories
-**CD** is the command used to change directories. It takes one parameter - the absolute or relative filepath you would like to move to (_cd_ with no parameters takes you to your home directory).
+**`cd`** is the command used to change directories. It takes one parameter - the absolute or relative filepath you would like to move to (_cd_ with no parameters takes you to your home directory).
 
-**`cd ~`** Navigate to your home directory (typically /bin/bash/user) `cd ~`
+* **`cd ~`** Navigate to your home directory (typically /bin/bash/user) `cd ~`
 
-Navigate to a specific directory `cd my_directory`
+* Navigate to a specific directory `cd my_directory`
 
-Navigate up a level `cd ..`
+* Navigate up a level `cd ..`
 
-Navigate up more than one level `cd ../..`
+* Navigate up more than one level `cd ../..`
 
-Navigate to previous directory `cd -`
+* Navigate to previous directory `cd -`
 
-Make a new directory `mkdir directory_name`
+**`mkdir`** Make a new directory `mkdir directory_name`
 
-Delete an empty directory `rmdir`
+**`rmdir`** Delete an empty directory `rmdir directory_name`
 
-Delete a directory and its contents `rmdir -rf directory_name`
+* Delete a directory and its contents `rmdir -rf directory_name`
 
 List subdirectories `ls -d */`
 
 ### Working with Files
+Although files and directories are technically the same thing in \*nix operating systems, different commands are used for working with each one. 
 
-Read a file with less `less file.txt` or cat `cat file.txt`
+**`less`** and **`cat`** Read a file with less `less file.txt` or cat `cat file.txt`
+Less is a file reader that returns a single screen at a time and allows the user to scroll through the file. Cat is short for concatenate, and outputs results to standard output, but it can be used to quickly view the contents of files as long as you don't need to scroll.
 
-Opening a file for editing in Vim `vi file.txt` or `vim file.txt`
+**`>`** Empty a file without deleting it `> file.txt`
 
-Empty a file without deleting it `> file.txt`
+**`rm`** Remove a file `rm file.txt` or all files `rm *`
 
-Remove a file `rm file_name` or all files `rm *`
+**`mv`** Move a file `mv file_name directory_name`
 
-Open a file in a program using `file.txt open program_name`
-
-Move a file `mv file_name directory_name`
-
-Copy a file `cp file_name directory_name`
-
-Edit a file `nano filename` or `vi filename`
+**`cp`** Copy a file `cp file_name directory_name`
 
 Rename a file or directory `mv file.txt file2.txt`
 
 Batch rename files `rename –v 's/foo/bar/g' *`
 
-### Multiple Commands
-In a single line `command1; command2; command3`
+Open a file in a program using `file.txt open program_name`
 
-Run commands together `command1 && command2`
+#### Text Editors - Vim, Emacs, Nano, Pico 
 
-Reuse last item with `$!` eg. `cd !$`
+**`nano`** Edit a file `nano filename` or `vi filename`
 
-Reuse previous command with `!!` eg. `sudo !!`
+**`vi`** or **`vim`** Opening a file for editing in Vim `vi file.txt` or `vim file.txt`
+Vi is a text editor created in the 1970s for Unix and was cloned and augmented in 1991. It's a bit tricky to learn, but once you do, you'll likely be hooked. It's quite powerful and extensible. 
 
-Show the history of commands used `history`
-
-Loop Over a set of Files `for f in *.txt;do echo $f;done`
+**`emacs`** You can also edit files in GNU Emacs in the same way as Vim `emacs file.txt`
+Emacs is another text editor, which I have yet to use much. There are many people who love it, and it has some additional functionality that Vim doesn't have by default, so it might be worth checking out. 
 
 ### Searching
 Search commands previously used `ctrl + r`
@@ -114,6 +109,19 @@ Move to beginning of current line `ctrl-A`
 
 `Alt-b` moves back one word
 `Alt-f` moves forward one word
+
+### Multiple Commands
+In a single line `command1; command2; command3`
+
+Run commands together `command1 && command2`
+
+Reuse last item with `$!` eg. `cd !$`
+
+Reuse previous command with `!!` eg. `sudo !!`
+
+Show the history of commands used `history`
+
+Loop Over a set of Files `for f in *.txt;do echo $f;done`
 
 ### Redirection/Piping
 
