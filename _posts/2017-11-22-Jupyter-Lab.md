@@ -3,7 +3,7 @@ layout: post
 title: Introduction to Jupyterlab
 ---
 
-# A Quick Overview of JupyterLab
+## A Quick Overview of JupyterLab
 
 I was pleasantly surprised to find [JupyterLab](https://github.com/jupyterlab/jupyterlab) packaged with a new installation of Anaconda (Python 3). According to [Boyan Angelov](https://medium.com/@boyanangelov), JupyterLab is a "true IDE for interactive computing," complete with file browser, terminal and code editor (in this case, Jupyter notebooks). The software is still in alpha preview, but appears to work quite well. To get started, you'll need Jupyter Notebook version 4.3 or later, which you can check by typing `jupyter notebook --version` in your shell. 
 
