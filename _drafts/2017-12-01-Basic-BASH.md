@@ -60,62 +60,61 @@ You can also use mv to rename a file or directory like this: `mv file.txt file2.
 **`open`** Open a file using the default program with `open file.txt` or with a specific program `program_name open file.txt` (eg. `nano open file.txt`).
 
 #### Text Editors - Vim, Emacs, Nano, Pico 
+Linux and Unix provide an abundance of different text editors, each of which is extremely feature-rich. I can't tell you which ones are best, but I like using Vim. Beginners will likely appreciate the ease of getting started with nano or Emacs. 
 
-**`nano`** Edit a file `nano filename` or `vi filename`
+**`nano`** or **`pico`** Edit a file `nano filename` or `pico filename`. Nano is a clone of Pico, and both have similar functionality.
 
 **`vi`** or **`vim`** Opening a file for editing in Vim `vi file.txt` or `vim file.txt`
-Vi is a text editor created in the 1970s for Unix and was cloned and augmented in 1991. It's a bit tricky to learn, but once you do, you'll likely be hooked. It's quite powerful and extensible. 
+Vi is a text editor created in the 1970s for Unix and was cloned and augmented in 1991. It's a bit tricky to learn, but once you do, you'll likely be hooked. It's quite powerful and extensible. Follow the official [tutorial](http://vimdoc.sourceforge.net/htmldoc/usr_02.html) to get started with Vim. Just remember, to close Vim you will need to be in edit mode (hit escape if you aren't) and type `:q!` to quit without changes or `:wq` to write changes to file and quit (SHIFT-z-z does the same thing).
 
 **`emacs`** You can also edit files in GNU Emacs in the same way as Vim `emacs file.txt`
 Emacs is another text editor, which I have yet to use much. There are many people who love it, and it has some additional functionality that Vim doesn't have by default, so it might be worth checking out. 
 
+### Working With Text
+**`ctrl-A`** Move to beginning of current line 
+**`ctrl-E`** Move to end of current line 
+**`Alt-b`** moves back one word
+**`Alt-f`** moves forward one word
+**`Ctrl + u`** Cut everything before the cursor to the clipboard
+**`Ctrl + k`** Cut everything after the cursor to the clipboard
+**`Ctrl + y`** Paste from the clipboard that `Ctrl + u` and `Ctrl + k` save their data to
+**`Ctrl + t`** Swap the two characters before the cursor 
+**`Ctrl + w`** Delete the word to the left of the cursor
+**`Ctrl + l`** or `clear` Clear the screen
+
 ### Searching
-Search commands previously used `ctrl + r`
 
-Find a text string in files `grep -Pri search_term filepath/file.txt`
+**`find`** Find a file `find . –name "*.txt" –mtime 5`
 
-Find a file `find . –name "*.txt" –mtime 5`
-
-Find a directory using _locate_ `locate directory`
+**`locate`** Find a directory using _locate_ `locate directory`
 
 List contents several directories deep `ls dirname /*/*`
 
-Search text and return lines that match a pattern `egrep [command line options] <pattern> [path]`
+**`grep`** Find a text string in files `grep -Pri search_term filepath/file.txt`
+
+**`egrep`** Search text and return lines that match a pattern `egrep [command line options] <pattern> [path]`
+
+**`ctrl + r`** Search commands previously used 
 
 Regular expressions
 
 ### Getting Help
-Finding out how to use a command `command --help`
+**`help`** Finding out how to use a command `command --help`
 
-Finding manual pages `man` or `man command`
+**`man`** Finding manual pages `man` or `man command`
 
-Search man pages using a keyword `man -k search_term`
-
-### Working With Text
-Move to end of current line `ctrl-E`
-
-Move to beginning of current line `ctrl-A`
-
-`Ctrl + u` Cut everything before the cursor to a special clipboard
-`Ctrl + k` Cut everything after the cursor to a special clipboard
-`Ctrl + y` Paste from the special clipboard that Ctrl + u and Ctrl + k save their data to
-`Ctrl + t` Swap the two characters before the cursor (you can actually use this to transport a character from the left to the right, try it!)
-`Ctrl + w` Delete the word / argument left of the cursor
-`Ctrl + l` or `clear` Clear the screen
-
-`Alt-b` moves back one word
-`Alt-f` moves forward one word
+* Search man pages using a keyword `man -k search_term`
 
 ### Multiple Commands
 In a single line `command1; command2; command3`
 
 Run commands together `command1 && command2`
 
-Reuse last item with `$!` eg. `cd !$`
+**`$!`** Reuse last item with `cd !$`
 
-Reuse previous command with `!!` eg. `sudo !!`
+**`!!`** Reuse previous command `sudo !!`
 
-Show the history of commands used `history`
+**`history`** Show the history of commands used 
 
 Loop Over a set of Files `for f in *.txt;do echo $f;done`
 
