@@ -12,7 +12,7 @@ There are a handful of bash commands you will use often, so let's get familiar w
 
 **`pwd`** - You can also print the directory you are in using _pwd_ (print working directory)
 
-**`ls`** - View the contents of your current directory with _ls_: `ls`. You can view a long-form list with `ls -l` or view hidden files with `ls -a`. 
+**`ls`** - View the contents of your current directory with _ls_. You can view a long-form list with `ls -l` or view hidden files with `ls -a`. 
 
 **`touch`** - You can create a file using _touch_: `touch file` and then type `ls` again to view it. If you type `touch file` again, the date/time modified for that file will be updated to the time you touched it. 
 
@@ -54,14 +54,11 @@ Less is a file reader that returns a single screen at a time and allows the user
 **`rm`** Remove a file `rm file.txt` or all files `rm *`
 
 **`mv`** Move a file `mv file_name directory_name`
+You can also use mv to rename a file or directory like this: `mv file.txt file2.txt`. If you'd like to batch rename files, use _rename_: `rename –v 's/foo/bar/g' *`
 
 **`cp`** Copy a file `cp file_name directory_name`
 
-Rename a file or directory `mv file.txt file2.txt`
-
-Batch rename files `rename –v 's/foo/bar/g' *`
-
-Open a file in a program using `file.txt open program_name`
+**`open`** Open a file using the default program with `open file.txt` or with a specific program `program_name open file.txt` (eg. `nano open file.txt`).
 
 #### Text Editors - Vim, Emacs, Nano, Pico 
 
