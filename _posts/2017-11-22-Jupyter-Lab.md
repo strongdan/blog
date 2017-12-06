@@ -9,16 +9,12 @@ I was pleasantly surprised to find [JupyterLab](https://github.com/jupyterlab/ju
 
 Probably the easiest way to get JupyterLab is with Anaconda, but you can also install it using conda: 
 
-```
-conda install -c conda-forge jupyterlab
-```
+`conda install -c conda-forge jupyterlab`
 
 ...or with the Python package manager:
 
-```
-pip install jupyterlab
-jupyter serverextension enable --py jupyterlab --sys-prefix
-```
+`pip install jupyterlab`
+`jupyter serverextension enable --py jupyterlab --sys-prefix`
 
 There is another method of installing Jupyterlab from Github, which is outlined out on the official [markdown file](https://github.com/jupyterlab/jupyterlab). 
 
@@ -26,23 +22,23 @@ In order to start Jupyterlab, simply type `jupyter lab` in your shell, and a new
 
 Here's what it looks like "in the flesh":
 
-![Jupyterlab](assets/jupyerlab.png)
+![Jupyterlab](https://github.com/strongdan/blog/edit/gh-pages/assets/jupyerlab.png)
 
 You can open multiple tabs and have several Python or R kernels running side-by-side. 
 
-![tabs](assets/tabs.png)
+![tabs](https://github.com/strongdan/blog/edit/gh-pages/assets/tabs.png)
 
 JupyterLab supports a number of different programming languages:
 
-![languages](assets/languages.png)
+![languages](https://github.com/strongdan/blog/edit/gh-pages/assets/languages.png)
 
 There's a built-in python console
 
-![console](assets/console.png)
+![console](https://github.com/strongdan/blog/edit/gh-pages/assets/console.png)
 
 You can map keys to match your favorite text editor or IDE
 
-![keymap](assets/keymap.png)
+![keymap](https://github.com/strongdan/blog/edit/gh-pages/assets/keymap.png)
 
 
 ### Links
