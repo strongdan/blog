@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with BASH
 ---
 
-## Some Basic BASH Commands to Get You Started With the Command Line
+## Some Basic BASH Commands to Get You Started Using the Command Line
 
 ![](https://static.pexels.com/photos/207580/pexels-photo-207580.jpeg)
 
