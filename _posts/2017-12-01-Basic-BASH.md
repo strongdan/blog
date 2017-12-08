@@ -3,11 +3,15 @@ layout: post
 title: Getting Started with BASH
 ---
 
-## Some Basic BASH Commands to Get You Started Using the Command Line
+# Some Basic BASH Commands to Get You Started Using the Command Line
+
+This is a beginner-oriented post intended to get you comfortable using your \*nix-based operating system's command line for commond tasks. More advanced features will be the topic of future posts. 
 
 ![](https://static.pexels.com/photos/207580/pexels-photo-207580.jpeg)
 
-The command line is a great way to quickly and efficiently work with files, and sometimes it's the only way to accomplish certain tasks. If you're not already familiar with BASH (Bourne-Again SHell), this post is meant to get you started navigating your computer from the command line. I cover some basic command and shortcuts here, but you'll want to experiment on your own and follow the links I provide at the bottom if you would like to accomplish more advanced tasks.  
+The command line is a great way to quickly and efficiently work with files, and sometimes it's the only way to accomplish certain tasks. Being able to use the command line to quickly create and modify files is essential for developers in nearly every field. 
+
+If you're not already familiar with BASH (Bourne-Again SHell), this post is meant to get you started navigating your computer from the command line. I cover some basic command and shortcuts here, but you'll want to experiment on your own and follow the links I provide at the bottom if you would like to accomplish more advanced tasks.  
 
 If you want to follow along, open up your terminal on macOS or any flavor of Linux (I can't guarantee these commands will work with Windows Powershell. FYI only Windows 10 has a BASH shell). 
 
@@ -48,9 +52,9 @@ You can also use _echo_ to write to file like this: `echo "Here is some text" > 
 
 * Navigate to previous directory `cd -`
 
-**`mkdir`** Make a new directory `mkdir directory_name`
+* **`mkdir`** Make a new directory `mkdir directory_name`
 
-**`rmdir`** Delete an empty directory `rmdir directory_name`
+* **`rmdir`** Delete an empty directory `rmdir directory_name`
 
 * Delete a directory and its contents `rmdir -rf directory_name`
 
