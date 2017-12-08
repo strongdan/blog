@@ -5,6 +5,8 @@ title: Getting Started with BASH
 
 ## Some Basic BASH Commands to Get You Started With the Command Line
 
+![](https://static.pexels.com/photos/207580/pexels-photo-207580.jpeg)
+
 The command line is a great way to quickly and efficiently work with files, and sometimes it's the only way to accomplish certain tasks. If you're not already familiar with BASH (Bourne-Again SHell), this post is a very quick and dirty review of some command and shortcuts to get you started navigating your computer from the command line. Open up your terminal on macOS or any flavor of Linux (I can't guarantee these commands will work with Windows Powershell. FYI only Windows 10 has a BASH shell).
 
 ### Some Basic Commands
@@ -145,6 +147,8 @@ Bash provides extensive documentation for each all commands, all of which can be
 ( **`man`** Finding manual pages `man` or `man command`
 
 * Search man pages using a keyword `man -k search_term`
+
+![](https://static.pexels.com/photos/33234/nautilus-shell-shimmer-silver.jpg)
 
 ### Other Topics
 This was a super brief and superficial orientation to the command line, and there's a ton more to learn. In a future post, I will cover some more super handy shell features, including: 
