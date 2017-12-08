@@ -5,7 +5,7 @@ title: Getting Started with BASH
 
 ## Some Basic BASH Commands to Get You Started With the Command Line
 
-The command line is a great way to quickly and efficiently work with files, and sometimes it's the only way to accomplish certain tasks. If you're not already familiar with BASH (Bourne-Again SHell), this post is a very quick and dirty review of some command and shortcuts to get you started navigating your computer from the command line. Open up your terminal on macOS or any flavor of Linux (I can't guarantee these commands will work with Windows Powershell. FYI only Windows 10 has a BASH shell). 
+The command line is a great way to quickly and efficiently work with files, and sometimes it's the only way to accomplish certain tasks. If you're not already familiar with BASH (Bourne-Again SHell), this post is a very quick and dirty review of some command and shortcuts to get you started navigating your computer from the command line. Open up your terminal on macOS or any flavor of Linux (I can't guarantee these commands will work with Windows Powershell. FYI only Windows 10 has a BASH shell).
 
 ### Some Basic Commands
 There are a handful of bash commands you will use often, so let's get familiar with them right off the bat. 
@@ -20,6 +20,14 @@ There are a handful of bash commands you will use often, so let's get familiar w
 You can also use _echo_ to write to file like this: `echo "Here is some text" > file2`, which will both create the file for you and write to it. If you try this again, it will overwrite your previous text. If you would like to append text to this file, you will need to use _>>_ like this: `echo "Here is more text >> file`.
 
 **`cat`** - If you would like to take a look at the file you just wrote to, type `cat file2`. 
+
+#### To practice using these commands, you can follow these steps in your interpreter:
+1. Open your command line interpreter and print your working directory to get oriented
+2. List the contents of the directory you're in
+3. Create a few new files and then list the contents of your directory again
+4. Type "hello world" or something equally silly to standard output
+5. Write some text to a file and look at the file's contents in the terminal
+6. List files using long (`-l`) argument, touch an existing file, then list files again to see if modified date has changed
 
 ### Working With Directories
 **`cd`** is the command used to change directories. It takes one parameter - the absolute or relative filepath you would like to move to (_cd_ with no parameters takes you to your home directory).
@@ -41,6 +49,14 @@ You can also use _echo_ to write to file like this: `echo "Here is some text" > 
 * Delete a directory and its contents `rmdir -rf directory_name`
 
 List subdirectories `ls -d */`
+
+#### Practice these commands by following along:
+1. Move to your home directory and print the directory name
+2. List the contents of your home directory and move to a subdirectory
+3. Move back to where you were (home directory) and list all subdirectories
+4. Navigate to a directory several folders deep, then return using the absolute path of your home directory
+5. Create a subdirectory "new_dir" and delete it. Check that it's gone by listing the parent directory contents
+6. Create a subdirectory "my_dir" and add files or folders to it, then delete it
 
 ### Working with Files
 Although files and directories are technically the same thing in \*nix operating systems, some different commands are used for working with files. 
@@ -70,7 +86,18 @@ Vi is a text editor created in the 1970s for Unix and was cloned and augmented i
 **`emacs`** You can also edit files in GNU Emacs in the same way as Vim `emacs file.txt`
 Emacs is another text editor, which I have yet to use much. There are many people who love it, and it has some additional functionality that Vim doesn't have by default, so it might be worth checking out. 
 
+#### If you would like to try these commands out for yourself, follow along:
+1. Create a file "my_file" and type or paste in some text. [Hipster Ipsum](https://hipsum.co/) is a good source for nonsense text
+2. Use _less_ and _cat_ to read to the file's contents. Empty the file you created, then delete it
+3. Create a new file "file" and rename it to "file1"
+4. Create several files, then rename them using _rename_
+5. Open one of these files from the command line using your IDE of choice. Type in some text then save and close
+6. Reopen the last file using nano or pico and modify it
+7. Reopen the last file using Vim or Emacs, make some changes and exit
+
 ### Working With Text
+There are a few handy shortcuts that will save you a lot of time and energy in the command line.
+
 **`ctrl-A`** Move to beginning of current line 
 **`ctrl-E`** Move to end of current line 
 **`Alt-b`** moves back one word
@@ -83,6 +110,7 @@ Emacs is another text editor, which I have yet to use much. There are many peopl
 **`Ctrl + l`** or `clear` Clear the screen
 
 ### Searching
+There are a ton of handy ways to search using the command line
 
 **`find`** Find a file `find . –name "*.txt" –mtime 5`
 
@@ -96,16 +124,9 @@ List contents several directories deep `ls dirname /*/*`
 
 **`ctrl + r`** Search commands previously used 
 
-Regular expressions
+### Multiple Commands and Command Reuse
+You can also string commands together on a single line
 
-### Getting Help
-**`help`** Finding out how to use a command `command --help`
-
-**`man`** Finding manual pages `man` or `man command`
-
-* Search man pages using a keyword `man -k search_term`
-
-### Multiple Commands
 In a single line `command1; command2; command3`
 
 Run commands together `command1 && command2`
@@ -118,28 +139,25 @@ Run commands together `command1 && command2`
 
 Loop Over a set of Files `for f in *.txt;do echo $f;done`
 
-### Redirection/Piping
+### Getting Help
+Bash provides extensive documentation for each all commands, all of which can be accessed from the command line
 
-`ps aux | grep init`
+**`help`** Finding out how to use a command `command --help`
 
-`ls –l | more`
+**`man`** Finding manual pages `man` or `man command`
 
-### Using SHELL Scripts
-`./scriptname.sh`
+* Search man pages using a keyword `man -k search_term`
 
-### Aliases
+### Other Topics
+This was a super quick and dirty orientation to the command line, and there's a ton more to learn. In a future post, I will cover some more super handy shell features, including: 
 
-### Working with Permissions
-
-### Filters
-
-### Process Management
-
-### 
-
-https://itsfoss.com/linux-command-tricks/?utm_source=facebook&utm_medium=social&utm_campaign=SocialWarfare
-
-https://linuxacademy.com/blog/linux/tutorial-the-best-tips-tricks-for-bash-explained/
+* Redirection/Piping
+* Using SHELL Scripts
+* Aliases
+* Working with Permissions
+* Filters
+* Process Management
+* Regular expressions
 
 ### Useful Links
 * [Bash Shortcuts](https://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/)
