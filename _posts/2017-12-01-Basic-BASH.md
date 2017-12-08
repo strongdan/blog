@@ -5,7 +5,7 @@ title: Getting Started with BASH
 
 # Some Basic BASH Commands to Get You Started Using the Command Line
 
-This is a beginner-oriented post intended to get you comfortable using your \*nix-based operating system's command line for commond tasks. More advanced features will be the topic of future posts. 
+This is a beginner-oriented post intended to get you comfortable using your \*nix-based operating system's command line for common tasks. More advanced features will be the topic of future posts. 
 
 ![](https://static.pexels.com/photos/207580/pexels-photo-207580.jpeg)
 
