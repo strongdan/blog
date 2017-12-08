@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to Jupyterlab
+title: Introduction to JupyterLab
 ---
 
 ## A Quick Overview of JupyterLab
@@ -16,13 +16,13 @@ Probably the easiest way to get JupyterLab is with Anaconda, but you can also in
 `pip install jupyterlab`
 `jupyter serverextension enable --py jupyterlab --sys-prefix`
 
-There is another method of installing Jupyterlab from Github, which is outlined out on the official [markdown file](https://github.com/jupyterlab/jupyterlab). 
+There is another method of installing JupyterLab from Github, which is outlined out on the official [markdown file](https://github.com/jupyterlab/jupyterlab). 
 
-In order to start Jupyterlab, simply type `jupyter lab` in your shell, and a new session will open in your browser. JupyterLab uses CSS Variables for styling, so only the latest versions of Chrome, Safari and Firefox are supported. 
+In order to start JupyterLab, simply type `jupyter lab` in your shell, and a new session will open in your browser. JupyterLab uses CSS Variables for styling, so only the latest versions of Chrome, Safari and Firefox are supported. 
 
 Here's what it looks like "in the flesh":
 
-![Jupyterlab](/assets/jupyerlab.png)
+![JupyterLab](/assets/jupyerlab.png)
 
 You can open multiple tabs and have several Python or R kernels running side-by-side. 
 
@@ -40,6 +40,7 @@ You can map keys to match your favorite text editor or IDE
 
 ![keymap](/assets/keymap.png)
 
+Overall, I'm impressed with what JupyterLab can do, and so far I haven't discovered any limitations with this new IDE. I'm looking forward to seeing JupyterLab improve and gain functionality. I'll post any updates here on my blog. 
 
 ### Links
 
