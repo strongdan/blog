@@ -13,7 +13,7 @@ The command line is a great way to quickly and efficiently work with files, and 
 
 If you're not already familiar with BASH (Bourne-Again SHell), this post is meant to get you started navigating your computer from the command line. I cover some basic command and shortcuts here, but you'll want to experiment on your own and follow the links I provide at the bottom if you would like to accomplish more advanced tasks.  
 
-If you want to follow along, open up your terminal on macOS or any flavor of Linux (I can't guarantee these commands will work with Windows Powershell. FYI only Windows 10 has a BASH shell). 
+If you want to follow along, open up your terminal on macOS or any flavor of Linux (I can't guarantee these commands will work with Windows Powershell. Also, keep in mind that only Windows 10 has a BASH shell). 
 
 ![](https://static.pexels.com/photos/33234/nautilus-shell-shimmer-silver.jpg)
 
