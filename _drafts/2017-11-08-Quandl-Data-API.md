@@ -33,7 +33,7 @@ For a full (searchable) list of data products Quandl offers, you can check [here
 
 
 ### Retrieving Data
-You can download an entire time series data set using `quandl.bulkdownload("CUR/JPY")`, but it's typically more useful to use Quandl's _get_table_ method to retrieve the table of your choice: `data = quandl.get_table('CUR/JPY', paginate=True)`
+You can download an entire time series data set using `quandl.bulkdownload("CUR/JPY")`, but it's typically more useful to use Quandl's _get_table_ method to retrieve the table of your choice: `data = quandl.get_table('CUR/JPY', paginate=True)` or `data = quandl.get("CUR/JPY", authtoken="YOURAPIKEY")` if you haven't previously set an API key. If you want to return a Numpy array, you can specify that using the _returns_ argument: `data = quandl.get("CUR/JPY", returns="numpy")`. 
 
 Many tables are too large to download as a whole and will require you to narrow the request using one or more filters. Keep in mind that not all columns are filterable. The table's documentation page will indicate whether a column can be used for filtering. 
 
@@ -41,8 +41,9 @@ Many tables are too large to download as a whole and will require you to narrow 
 
 Only columns designated as filterable in the table's documentation page can be used as criteria to filter rows. 
 
-```
 
+```
+https://www.quandl.com/api/v3/datatables/{datatable_code}/metadata.{format}
 ```
 
 there are also methods for parsing data prior to retrieval. You can specify a date range using the _start_date_ and _end_date_ arguments: `mydata = quandl.get("CUR/JPY", start_date="2016-06-15", end_date="2016-06-30")`. Here is what the requested data looks like:
@@ -77,7 +78,47 @@ It's also possible to create a curl request from within a Jupyter notebook using
 !curl "https://www.quandl.com/api/v3/datasets/FRED/GDP.csv?collapse=annual&rows=6&order=asc&column_index=1&api_key=YOURAPIKEY"
 ```
 
-In order to use a shell command like this, simply concatenate (1) the requested data set URL, (2) the number of rows, (3) the sorting order, (4) the column index, and (5) the user's API key. You can find more details on the elements of this call [here](https://docs.quandl.com/docs/quick-start-examples-1). Not all of these parameters are required. 
+You can create a metadata request for a data table in a similar manner:
+
+```
+!curl "https://www.quandl.com/api/v3/datatables/AR/MWCS/metadata.json?api_key=YOURAPIKEY"
+```
+In order to use a shell command like this, simply concatenate (1) the requested data set URL, (2) the number of rows, (3) the sorting order, (4) the column index, and (5) the user's API key. You can find more details on the elements of this call [here](https://docs.quandl.com/docs/quick-start-examples-1). Not all of these parameters are required. A more detailed explanation of the [composition of a call](https://docs.quandl.com/docs/quick-start-examples-9) is provided on the Quandl website:
+
+<table>
+<thead>
+<tr>
+<th>URL COMPONENT</th>
+<th>EXPLANATION</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>https://www.quandl.com/api/v3/datatables/MER/F1.xml</code></td>
+<td>This portion of the call queries the MER/F1 table and returns the data in XML format.</td>
+</tr>
+<tr>
+<td><code>mapcode=-5370</code></td>
+<td>This filter removes everything except for where the mapcode = -5370 (this is the identifier used by Mergent for revenue per share)</td>
+</tr>
+<tr>
+<td><code>compnumber=39102</code></td>
+<td>This filter removes everything except for the rows where compnumber=39102 (39102 = Nokia).</td>
+</tr>
+<tr>
+<td><code>reporttype=A</code></td>
+<td>This filter removes everything except for the rows showing records for the &quot;annual&quot; report type  (A = annual).</td>
+</tr>
+<tr>
+<td><code>qopts.columns=reportdate,amount</code></td>
+<td>This argument filters the data based on the “report date” and &quot;amount&quot; columns.</td>
+</tr>
+<tr>
+<td><code>api_key=&lt;YOURAPIKEY&gt;</code></td>
+<td>This part of the call authenticates you as a Quandl user. Replace the placeholder text <code>&lt;YOURAPIKEY&gt;</code> with your personal API Key.</td>
+</tr>
+</tbody>
+</table>
 
 
 
