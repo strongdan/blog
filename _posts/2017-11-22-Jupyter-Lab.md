@@ -22,23 +22,23 @@ In order to start Jupyterlab, simply type `jupyter lab` in your shell, and a new
 
 Here's what it looks like "in the flesh":
 
-![Jupyterlab](https://github.com/strongdan/blog/edit/gh-pages/assets/jupyerlab.png)
+![Jupyterlab](/assets/jupyerlab.png)
 
 You can open multiple tabs and have several Python or R kernels running side-by-side. 
 
-![tabs](https://github.com/strongdan/blog/edit/gh-pages/assets/tabs.png)
+![tabs](/assets/tabs.png)
 
 JupyterLab supports a number of different programming languages:
 
-![languages](https://github.com/strongdan/blog/edit/gh-pages/assets/languages.png)
+![languages](/assets/languages.png)
 
 There's a built-in python console
 
-![console](https://github.com/strongdan/blog/edit/gh-pages/assets/console.png)
+![console](/assets/console.png)
 
 You can map keys to match your favorite text editor or IDE
 
-![keymap](https://github.com/strongdan/blog/edit/gh-pages/assets/keymap.png)
+![keymap](/assets/keymap.png)
 
 
 ### Links
