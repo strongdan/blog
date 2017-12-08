@@ -7,7 +7,11 @@ title: Getting Started with BASH
 
 ![](https://static.pexels.com/photos/207580/pexels-photo-207580.jpeg)
 
-The command line is a great way to quickly and efficiently work with files, and sometimes it's the only way to accomplish certain tasks. If you're not already familiar with BASH (Bourne-Again SHell), this post is a very quick and dirty review of some command and shortcuts to get you started navigating your computer from the command line. Open up your terminal on macOS or any flavor of Linux (I can't guarantee these commands will work with Windows Powershell. FYI only Windows 10 has a BASH shell).
+The command line is a great way to quickly and efficiently work with files, and sometimes it's the only way to accomplish certain tasks. If you're not already familiar with BASH (Bourne-Again SHell), this post is meant to get you started navigating your computer from the command line. I cover some basic command and shortcuts here, but you'll want to experiment on your own and follow the links I provide at the bottom if you would like to accomplish more advanced tasks.  
+
+If you want to follow along, open up your terminal on macOS or any flavor of Linux (I can't guarantee these commands will work with Windows Powershell. FYI only Windows 10 has a BASH shell). 
+
+![](https://static.pexels.com/photos/33234/nautilus-shell-shimmer-silver.jpg)
 
 ### Some Basic Commands
 There are a handful of bash commands you will use often, so let's get familiar with them right off the bat. 
@@ -93,11 +97,12 @@ Emacs is another text editor, which I have yet to use much. There are many peopl
 #### If you would like to try these commands out for yourself, follow along:
 1. Create a file "my_file" and type or paste in some text. [Hipster Ipsum](https://hipsum.co/) is a good source for nonsense text
 2. Use _less_ and _cat_ to read to the file's contents. Empty the file you created, then delete it
-3. Create a new file "file" and rename it to "file1"
-4. Create several files, then rename them using _rename_
+3. Create a new file "file.txt" and rename it to "file1.txt"
+4. Create several text files, then rename them using _rename_
 5. Open one of these files from the command line using your IDE of choice. Type in some text then save and close
 6. Reopen the last file using nano or pico and modify it
-7. Reopen the last file using Vim or Emacs, make some changes and exit
+7. Reopen the last file again using Vim or Emacs, make some changes and exit
+8. Play around by adding hipster ipsum text to each of the files you created and cat the results to standard output
 
 ### Working With Text
 There are a few handy shortcuts that will save you a lot of time and energy in the command line.
@@ -114,9 +119,9 @@ There are a few handy shortcuts that will save you a lot of time and energy in t
 * **`Ctrl + l`** or `clear` Clear the screen
 
 ### Searching
-There are a ton of handy ways to search using the command line
+There are a ton of handy ways to search using the command line, which I can almost guarantee will come in super handy at some point
 
-* **`find`** Find a file `find . –name "*.txt" –mtime 5`
+* **`find`** Find a file `find . –name "*.txt"`
 
 * **`locate`** Find a directory using _locate_ `locate directory`
 
@@ -124,34 +129,37 @@ There are a ton of handy ways to search using the command line
 
 * **`egrep`** Search text and return lines that match a pattern `egrep [command line options] <pattern> [path]`
 
+#### For practice searching, try these steps:
+1. Search for one of the files you created previously using find
+2. Search for a directory you know exists
+3. Search for for some of the hipster ipsum you previously pasted using grep and egrep
+
 ### Multiple Commands and Command Reuse
-You can also string commands together on a single line
+You can also string commands together on a single line, either separately or in conjunction
 
-In a single line `command1; command2; command3`
+* In a single line `command1; command2; command3`
 
-Run commands together `command1 && command2`
+* Run commands together `command1 && command2`
 
-**`$!`** Reuse last item with `cd !$`
+* **`$!`** Reuse last item with `cd !$`
 
-**`!!`** Reuse previous command `sudo !!`
+* **`!!`** Reuse previous command `sudo !!`
 
-**`history`** Show the history of commands used 
+* **`history`** Show the history of commands used 
 
-Loop Over a set of Files `for f in *.txt;do echo $f;done`
+* Loop Over a set of Files `for f in *.txt;do echo $f;done`
 
 ### Getting Help
 Bash provides extensive documentation for each all commands, all of which can be accessed from the command line
 
 * **`help`** Finding out how to use a command `command --help`
 
-( **`man`** Finding manual pages `man` or `man command`
+* **`man`** Finding manual pages `man` or `man command`
 
 * Search man pages using a keyword `man -k search_term`
 
-![](https://static.pexels.com/photos/33234/nautilus-shell-shimmer-silver.jpg)
-
 ### Other Topics
-This was a super brief and superficial orientation to the command line, and there's a ton more to learn. In a future post, I will cover some more super handy shell features, including: 
+This was a super brief and superficial orientation to the command line. There is a ton more to learn. In a future post, I will cover some more super handy shell features, including: 
 
 * Redirection/Piping
 * Using SHELL Scripts
@@ -164,4 +172,4 @@ This was a super brief and superficial orientation to the command line, and ther
 ### Useful Links
 * [Bash Shortcuts](https://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/)
 * Ryan's Tutorial's [Cheat Sheet](https://ryanstutorials.net/linuxtutorial/cheatsheet.php)
-* https://medium.freecodecamp.org/conquering-the-command-line-f85f5e46c07c
+* [Free Code Camp Post on the Command Line](https://medium.freecodecamp.org/conquering-the-command-line-f85f5e46c07c)
