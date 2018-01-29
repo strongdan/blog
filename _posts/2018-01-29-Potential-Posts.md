@@ -3,8 +3,6 @@ layout: post
 title: Possible Blog Post Topics
 ---
 
-# Possible Blog Posts for 2018
-
 I maintain a list of potential posts, which usually don't get written unless I have a lot of downtime. Often posts are researched or written when I'm sitting in an airport or a hotel room. "Regular" life doesn't seem to provide enough time to focus on these things for long. This post is an opportunity for me to revisit some ideas I've been meaning to write about but haven't found the time to do so. This is the first real assignment for the #cnc2018 blog more challenge. For this assignment, our instructions are as follows: 
 `Come up with 10 blog ideas, then narrow those down to 3. For this challenge, your blog should fall into 1 of 3 categories: tutorial, project, explainer.` 
 
