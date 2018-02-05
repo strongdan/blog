@@ -9,7 +9,7 @@ The labor market is a name given to the concept of the supply and demand for lab
 * Labor force - the combined number of individuals who can work, including both employed and unemployed
 * Employed - The definition for employed people is different between BLS programs, but essentially includes anyone from the labor force (16 or older) who worked during a specific time period
 * Unemployed - The unemployed are those individuals in the labor force who were not working during a specific time period, but who were available for work (ie. not sick or waiting to be recalled). These individuals also must have made an effort to find employment during the specified time. 
-* Unemployment Rate - 
+* Unemployment Rate - the unemployment rate is the ratio of the unemployed as a component of the labor force
 
 ### Local Area Unemployment Statistics
 LAUS state estimates are produced using time series models to estimate the true values of household employment and unemployment from state Current Population Survey (CPS) series, which contain sampling error. The estimates consist of trend and seasonal components that sum to the not seasonally adjusted (NSA) data series.
