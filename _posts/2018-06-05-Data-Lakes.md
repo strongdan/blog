@@ -1,4 +1,6 @@
-What is a Data Lake?
+##What is a Data Lake?
+
+_This is a guest post from Austin-based business analytics firm [Tenfold](https://www.tenfold.com/)_
 
 On the early days of modern computation, computers of the 1950s, 60s, and 70s would collect data from physical repositories (cards, keyboard input and tapes) and deal with it in memory, meaning a virtual environment.
 
@@ -16,10 +18,10 @@ With the event of BigData (for Data tends to grow, exponentially), plus nowadays
 
 The main leverage of Data Lakes pertains the following characteristics:
 
-    While Data Warehouses store structured already processed Data, Data Lakes also store semi or unstructured as well as completely raw and (apparently) unrelated data. And, no … it’s not a waste of time and space since most times relationships are only found after processing.
-    Data Warehouses architecture implies expensive large data volumes whereas Data Lakes are specifically designed for low-cost
-    Data Warehouses obey by a pre-defined structure in which data is stored (pre-defined data classes and families), while Data Lakes have great flexibility towards dynamic structural configuration. And that is more the manner in which humans apprehend information and think.
-    Data which goes into Data Warehouses is mature (it has a clearly defined context), yet Data Lakes store Data that is still maturing (still finding its place in the overall context).
+* While Data Warehouses store structured already processed Data, Data Lakes also store semi or unstructured as well as completely raw and (apparently) unrelated data. And, no … it’s not a waste of time and space since most times relationships are only found after processing.
+* Data Warehouses architecture implies expensive large data volumes whereas Data Lakes are specifically designed for low-cost
+* Data Warehouses obey by a pre-defined structure in which data is stored (pre-defined data classes and families), while Data Lakes have great flexibility towards dynamic structural configuration. And that is more the manner in which humans apprehend information and think.
+* Data which goes into Data Warehouses is mature (it has a clearly defined context), yet Data Lakes store Data that is still maturing (still finding its place in the overall context).
 
 By now you should be realizing that without Data /Lakes, the IoT or even AI would be heavy, slow or even impossible technologies to implement in a cost-effective manner.
 
@@ -33,14 +35,14 @@ Let’s imagine one example where your company needs to undergo a Market Analysi
 
 Such exercise, if done over existing corporate systems’ existing Databases or Data Warehouses implies getting the accurate answers to the following questions:
 
-    Clearly identifying WHAT characterizes valid Data, meaning Data that pertains prospects who bear the high potential of becoming clients of such new product or service now entering the corporate portfolio?
-    WHERE in the different corporate systems’ Data Warehouses lays such data?
-    WHICH types or families of Data represent the most potential towards assertively qualifying the prospects with higher potential?
-    HOW shall the code that enables such accurate data collection and processing be developed (programming languages, processing logic leading to step stone creation of added value content and so on …)?
-    WHAT are the required computing and storage resources that enable the fastest possible processing of all the Data that may be found relevant?
-    WHEN could we expect the first results?
-    WHICH is the expectable percentage of “false positives”, deviations and errors?
-    HOW much will it cost? Is it worthwhile the waiting or once we get the information we need, time to market will be just history?
+* Clearly identifying WHAT characterizes valid Data, meaning Data that pertains prospects who bear the high potential of becoming clients of such new product or service now entering the corporate portfolio?
+* WHERE in the different corporate systems’ Data Warehouses lays such data?
+* WHICH types or families of Data represent the most potential towards assertively qualifying the prospects with higher potential?
+* HOW shall the code that enables such accurate data collection and processing be developed (programming languages, processing logic leading to step stone creation of added value content and so on …)?
+* WHAT are the required computing and storage resources that enable the fastest possible processing of all the Data that may be found relevant?
+* WHEN could we expect the first results?
+* WHICH is the expectable percentage of “false positives”, deviations and errors?
+* HOW much will it cost? Is it worthwhile the waiting or once we get the information we need, time to market will be just history?
 
 Data Lakes are an inevitable consequence of widespread access and integration as well as social and tech trends like Social Media or IoT will only make them more common.
 
@@ -48,31 +50,31 @@ However, if there was a cost-effective way to do it, by cross-referencing the Da
 
 A Data Lake needs to enable the features to embed in the ISASA concept which specifically represents the ability to:
 
-    Ingest data from several distinct flow streams through appropriate APIs or Batch processes.
-    Store such dynamically unforeseen in size amounts of Data on scalable repositories (the Lake) through all necessary protocols (NFS, CIFS, FTP, HDFS, other)
-    Analyze the Data by finding the relevant correlations according to your needs and expectations.
-    Surface relevant information in a user-friendly manner that better conveys what you need to see in the most straightforward effective way.
-    Act, in the most efficient and cost-effective manner leading you to reach the intended goals.
+* Ingest data from several distinct flow streams through appropriate APIs or Batch processes.
+* Store such dynamically unforeseen in size amounts of Data on scalable repositories (the Lake) through all necessary protocols (NFS, CIFS, FTP, HDFS, other)
+* Analyze the Data by finding the relevant correlations according to your needs and expectations.
+* Surface relevant information in a user-friendly manner that better conveys what you need to see in the most straightforward effective way.
+* Act, in the most efficient and cost-effective manner leading you to reach the intended goals.
 
-The Process
+##The Process
 
 A Data Lake is not the solution to your problem, yet the IT Landscape that will allow you to get there fast and accurately, and that means as in most cases in life that you need to begin by clearly understanding the intended outcome and defining concrete tangible goals, so:
 
-    Start by determining your Business Objectives
-    Define and collect the data that will enable you to reach your Business Objectives
-    Identify what Success will look like for you
+* Start by determining your Business Objectives
+* Define and collect the data that will enable you to reach your Business Objectives
+* Identify what Success will look like for you
 
 In the above-mentioned case, of your company going after clients for your new product or service, these would translate by:
 
-    Assertively leveraging the value proposition towards the prospects.
-    Targeting the right prospects (the ones who will most likely buy the product or service, therefore, becoming clients).
-    Increase Sales and Revenue.
+* Assertively leveraging the value proposition towards the prospects.
+* Targeting the right prospects (the ones who will most likely buy the product or service, therefore, becoming clients).
+* Increase Sales and Revenue.
 
-Data Lake Architecture
+##Data Lake Architecture
 
 Still considering our case, a company launching a new Portfolio Item, the Structure that needs to be set in place will resemble the following picture.
 
-Data Sources
+##Data Sources
 
 The Data Sources Layer provides data streams from Corporate systems or other sources of both structured or raw data via APIs or other plug-ins regardless of origin storage format.
 
@@ -80,24 +82,24 @@ Processing and Storage Layer
 
 The processing layer starts with Security towards the data streams which mean:
 
-    Visibility classification and control (Authorizations and Permissions)
-    Multi-Level stratification: Clustering, DataSets and Attributes
-    Labelling towards highly sensitive classes of data
-    Authorization Views
+* Visibility classification and control (Authorizations and Permissions)
+* Multi-Level stratification: Clustering, DataSets and Attributes
+* Labelling towards highly sensitive classes of data
+* Authorization Views
 
 The appropriate processing structure needs to define which allows adequate processing of required data extracting valuable information. Here the following steps need to be defined:
 
-    Process and rules towards establishing Joins, Aggregations, and Correlations
-    Which will be Streaming and which will be Batching based
-    Error track& Tracing, Registry, and Resolution (Data Exceptions, Error Logs, Correction Tables)
-    False Positives detection (wrong data types, duplicated data, masking)
-    Required specific transformation algorithms that provide business-specific focused new data
+* Process and rules towards establishing Joins, Aggregations, and Correlations
+* Which will be Streaming and which will be Batching based
+* Error track& Tracing, Registry, and Resolution (Data Exceptions, Error Logs, Correction Tables)
+* False Positives detection (wrong data types, duplicated data, masking)
+* Required specific transformation algorithms that provide business-specific focused new data
 
-Integration Layer
+##Integration Layer
 
 Upon achieving the collection of valuable information and data out of the processing over the Data Lake content it must be either integrated back on Corporate Systems and/ or made available for several types of user profiles, who according to their roles and responsibilities will use it to leverage and gain efficiencies, such as the role of Integration and Governance.
 
-User Interfacing Layer
+##User Interfacing Layer
 
 Distinct user profiles will need to visualize data and information in different manners, some more holistic while other more detailed and exposing details and correlations.
 Support Tools
@@ -112,17 +114,17 @@ Best Practice Towards Implementing a Data Lake
 
 Here are the best practices key elements upon setting up the endeavor towards creating a Data Lake:
 
-    Focus on Architecture which best addresses available data
-    The Data Lake needs to be created according to available Data Sources and Type and not according to what is required. Although this may seem counterintuitive, the fact is that your Data structure at the end is not totally devisable when you start the process.
-    The Data Lake design must be guided by which type of data will you be able to dispose of during processing and not what will be useful.
-    Like the only way to eat an Elephant is to split it into small portions, you should do the same here, meaning Discovery & Ingestion, Storage & Administration, Quality & Transformation and Visualization & Interaction must be addressed separately.
-    Focus on native Data Types
-    All the architecture components must be able to deal with data in their native format.
-    All architecture components must be set in place while being fully aligned with the type of processes and procedures inherent to the specific Market Vertical requirements that the Data Lake will address.
-    Service and Governance
-    You must assure that the Data Lake structure and processing are capable of fast Data Ingestion independently of its source, not to create a bottleneck at the very beginning of the entire process.
-    Data profiling, security, and policies must be defined in advance as well as tagging, correlation rules, and workflows
-    Querying
+* Focus on Architecture which best addresses available data
+* The Data Lake needs to be created according to available Data Sources and Type and not according to what is required. Although this may seem counterintuitive, the fact is that your Data structure at the end is not totally devisable when you start the process.
+* The Data Lake design must be guided by which type of data will you be able to dispose of during processing and not what will be useful.
+* Like the only way to eat an Elephant is to split it into small portions, you should do the same here, meaning Discovery & Ingestion, Storage & Administration, Quality & Transformation and Visualization & Interaction must be addressed separately.
+* Focus on native Data Types
+* All the architecture components must be able to deal with data in their native format.
+* All architecture components must be set in place while being fully aligned with the type of processes and procedures inherent to the specific Market Vertical requirements that the Data Lake will address.
+* Service and Governance
+* You must assure that the Data Lake structure and processing are capable of fast Data Ingestion independently of its source, not to create a bottleneck at the very beginning of the entire process.
+* Data profiling, security, and policies must be defined in advance as well as tagging, correlation rules, and workflows
+* Querying
     Proper strong and agile querying processes must be defined and set in place, or the Data Lake will not be responsive as per your Time to Market requirements.
     Proper “guidelines” (algorithms and codding) that allows swift discovery of correlations and unification criteria, must be clearly defined in advance.
     Analytics that mirror human expectations and goals, are most relevant to allow gathering and clustering/ correlation of data that meets those human-driven
