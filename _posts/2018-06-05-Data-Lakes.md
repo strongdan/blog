@@ -2,7 +2,7 @@
 
 ![](https://38xg2k3wnr8x1354lc1jpsez-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/1-4-1_720x530_acf_cropped.png)
 
-##What is a Data Lake?
+## What is a Data Lake?
 
 _This is a guest post by Roshan Shetty of Austin-based business analytics firm [Tenfold](https://www.tenfold.com/)_
 
@@ -62,7 +62,7 @@ A Data Lake needs to enable the features to embed in the ISASA concept which spe
 * **S**urface relevant information in a user-friendly manner that better conveys what you need to see in the most straightforward effective way.
 * **A**ct, in the most efficient and cost-effective manner leading you to reach the intended goals.
 
-##The Process
+## The Process
 
 A Data Lake is not the solution to your problem, yet the IT Landscape that will allow you to get there fast and accurately, and that means as in most cases in life that you need to begin by clearly understanding the intended outcome and defining concrete tangible goals, so:
 
@@ -76,15 +76,15 @@ In the above-mentioned case, of your company going after clients for your new pr
 2. Targeting the right prospects (the ones who will most likely buy the product or service, therefore, becoming clients).
 3. Increase Sales and Revenue.
 
-##Data Lake Architecture
+## Data Lake Architecture
 
 Still considering our case, a company launching a new Portfolio Item, the Structure that needs to be set in place will resemble the following picture.
 
-###Data Sources
+### Data Sources
 
 The Data Sources Layer provides data streams from Corporate systems or other sources of both structured or raw data via APIs or other plug-ins regardless of origin storage format.
 
-###Processing and Storage Layer
+### Processing and Storage Layer
 
 The processing layer starts with Security towards the data streams which mean:
 
@@ -101,15 +101,15 @@ The appropriate processing structure needs to define which allows adequate proce
 * False Positives detection (wrong data types, duplicated data, masking)
 * Required specific transformation algorithms that provide business-specific focused new data
 
-###Integration Layer
+### Integration Layer
 
 Upon achieving the collection of valuable information and data out of the processing over the Data Lake content it must be either integrated back on Corporate Systems and/ or made available for several types of user profiles, who according to their roles and responsibilities will use it to leverage and gain efficiencies, such as the role of Integration and Governance.
 
-###User Interfacing Layer
+### User Interfacing Layer
 
 Distinct user profiles will need to visualize data and information in different manners, some more holistic while other more detailed and exposing details and correlations.
 
-##Support Tools
+## Support Tools
 
 As previously mentioned, although Data Lake content processing could be achieved via entirely “homemade” software tools, developing the entire required suite would represent a huge project by itself each time some analysis which requires the use of a Data Lake is in order.
 
@@ -119,7 +119,7 @@ A bit of advice; tools are growing as flowers in Springtime, make sure to choose
 
 ![](https://38xg2k3wnr8x1354lc1jpsez-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/3-3-6.png)
 
-##Best Practice Towards Implementing a Data Lake
+## Best Practice Towards Implementing a Data Lake
 
 Here are the best practices key elements upon setting up the endeavor towards creating a Data Lake:
 
@@ -143,7 +143,7 @@ Here are the best practices key elements upon setting up the endeavor towards cr
 
 Bottom line, you must “teach” the Data Lake to “think”.
 
-##Data Lake “Core Structures”
+## Data Lake “Core Structures”
 
 How is it possible for Google or Facebook to deal with such large colossal volumes of information simultaneously?
 
@@ -151,7 +151,7 @@ Do you realize that Data will increase exponentially as the IoT expands? We are 
 
 How will we be able to correlate data from such a huge number of streams in a manner that allows us to “see the big picture” in a way never seen before?
 
-##Hadoop
+## Hadoop
 
 In the beginning of our 21st Century, Google was becoming unable to scale their “traditional” Database Engines and processing capabilities in any manner that could deal with the exponentially large amount of new Data flowing in every second, so a new approach was developed an algorithm (called Map Reduce), that started by splitting and channelling Data as it arrived towards separated processing capacities according to its classification. Meaning, XML would be forward for processing to dedicated processing clusters as well as Text, SQL, Logs, Objects and so on would flow to other separated dedicated processing clusters.
 
@@ -161,7 +161,7 @@ So, Hadoop allows Data to be processed in parallel in extremely large volumes wh
 
 Only, Hadoop was heavily dependent of coding, in Java, to adapt it towards each specific new context and to overcome the time-consuming endeavor of doing so, the market saw the rise of previously mentioned Tools (Kafka, HIVE, Spark …).
 
-##Cassandra
+## Cassandra
 
 We can say that Cassandra if Facebook’s SQL based Hadoop, and we wouldn’t be far from being accurate.
 
@@ -171,7 +171,7 @@ This allows processing capacity to be automatically scaled just by adding new no
 
 The cluster nodes are all primary nodes, therefore there are no Master and Slave instances, all have the same degree of priority and command & control over the Data handling process, which assures full fault tolerance in case of clustering downtime or communications interruption.
 
-###What Sets Them Apart
+### What Sets Them Apart
 
 Hadoop was designed to deal with large amounts of unstructured Data bearing the capacity to process them in parallel and delivering results in a fast-effective manner, and for that purpose, it is usually implemented within a single IT Landscape which further enhances its Operational Approach to Data Processing and Management.
 
@@ -179,7 +179,7 @@ Cassandra, on the other hand, was designed to allow redundant multi-node + multi
 
 This means that Hadoop is very useful for Data Ingestion, Analytics and initial Processing, while Cassandra can enter the workflow later on allowing and assuring further detailed Processing, Security, Storing and Consultation anytime/ anywhere, once the data has been cataloged in a structured manner.
 
-##Leveraging Business
+## Leveraging Business
 
 Coming back to our company which is launching this new product, and considering an example that comprehends a complete range of available data, meaning existing clients how can a Data Lake supported on this Technological Landscape support the several teams on their roles?
 
@@ -191,7 +191,7 @@ This information can then be delivered in different formats, either CxO/ Managem
 
 How valuable would it be for you, if anytime you either contact a client or the client contacts you, your IT intel installed capacity automatically and accurately informs you of the new additional business potential towards that client?
 
-##Where are we Heading?
+## Where are we Heading?
 
 Being a new field of Computing, which most large corporations do not use yet since their entire IT Landscape (which has been evolving over decades) is necessarily constituted by Systems in “silos” which then interchange Data via API or other interconnect channels, there are several expectations like:
 
