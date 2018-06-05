@@ -203,4 +203,6 @@ The entire concept of capturing raw data and applying distinct Schemas to it (lo
 
 And this … has everything to do with Artificial Intelligence.
 
+---
+
 Read the original post [here](https://www.tenfold.com/what-is/leveraging-data-lakes)
