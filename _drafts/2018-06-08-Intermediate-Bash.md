@@ -5,7 +5,7 @@ title: Intermediate Tasks in Bash
 
 # Beyond the Basics: Some Intermediate Bash
 
-## Intermediate Commands
+## A Few Intermediate Commands
 ### grep
 Although I briefly covered grep in my previous post, I didn't provide many details. Grep is used to search for a pattern within a file or multiple files. The basic format is `grep "search term" file.txt`. You can use regular expressions with grep (a topic I'll cover in a future post). This [cheat sheet](https://ryanstutorials.net/linuxtutorial/cheatsheetgrep.php) is a great place to get started with regex. There's much more to using grep than I can cover here, but if you want more information [Alvin Alexander](https://alvinalexander.com/) has a great overview [here](https://alvinalexander.com/unix/edu/examples/grep.shtml).
 
@@ -19,7 +19,7 @@ Grep will return the line to standard output - with the keyword highlighted - fr
 
 _+1 meh craft beer shoreditch snackwave iPhone man bun twee polaroid keytar narwhal artisan drinking vinegar hashtag. Salvia roof party sustainable vegan woke cronut lyft pug. Gentrify flannel __flexitarian__, pickled cray plaid hammock celiac tacos cloud bread fanny pack kombucha. Scenester neutra VHS, hell of single-origin coffee cold-pressed tofu __flexitarian__ letterpress la croix banjo pork belly franzen. Lumbersexual typewriter hot chicken iPhone enamel pin pabst, mustache kogi cold-pressed narwhal flannel. Gentrify pok pok cloud bread biodiesel hella green juice offal 8-bit kinfolk paleo._
 
-If you want to search multiple files in a directory, you'll need to use the _-R_ (search files recursively) flag like this:
+If you want to search multiple files in a directory, you'll need to use the _-R_ flag (to search files recursively) like this:
 
 ```bash
 $ grep -R "fingerstache" . # this will search within the current directory
