@@ -22,13 +22,13 @@ _+1 meh craft beer shoreditch snackwave iPhone man bun twee polaroid keytar narw
 If you want to search multiple files in a directory, you'll need to use the _-R_ flag (to search files recursively) like this:
 
 ```bash
-$ grep -R "fingerstache" . # this will search within the current directory
+$ grep -R "fingerstache" . # this will search all files in the current directory
 ```
 
+### find
 ### more and less
 ### diff
 ### file
-### find
 ### head and tail
 ### sort
 
