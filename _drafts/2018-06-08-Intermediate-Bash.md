@@ -17,7 +17,7 @@ $ grep "flexitarian" new_file.txt # this will search only within new_file.txt
 
 Grep will return the line to standard output - with the keyword highlighted - from the file where it finds a match (or whichever output the user requests with options). In this example, this was my output:
 
-_+1 meh craft beer shoreditch snackwave iPhone man bun twee polaroid keytar narwhal artisan drinking vinegar hashtag. Salvia roof party sustainable vegan woke cronut lyft pug. Gentrify flannel __flexitarian__, pickled cray plaid hammock celiac tacos cloud bread fanny pack kombucha. Scenester neutra VHS, hell of single-origin coffee cold-pressed tofu __flexitarian__ letterpress la croix banjo pork belly franzen. Lumbersexual typewriter hot chicken iPhone enamel pin pabst, mustache kogi cold-pressed narwhal flannel. Gentrify pok pok cloud bread biodiesel hella green juice offal 8-bit kinfolk paleo._
+_+1 meh craft beer shoreditch snackwave iPhone man bun twee polaroid keytar narwhal artisan drinking vinegar hashtag. Salvia roof party sustainable vegan woke cronut lyft pug. Gentrify flannel __flexitarian__, pickled cray plaid hammock celiac tacos cloud bread fanny pack kombucha. Scenester neutra VHS, hell of single-origin coffee cold-pressed tofu __flexitarian__ letterpress la croix banjo pork belly franzen._
 
 If you want to search multiple files in a directory, you'll need to use the _-R_ flag (to search files recursively) like this:
 
