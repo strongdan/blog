@@ -5,6 +5,8 @@ title: Intermediate Tasks in Bash
 
 # Beyond the Basics: Some Intermediate Bash
 
+In a [post]() from last year, I outlined some basic commands for the terminal and promised to write about intermediate
+
 ## A Few Intermediate Commands
 ### grep
 Although I briefly covered grep in my previous post, I didn't provide many details. Grep is used to search for a pattern within a file or multiple files. The basic format is `grep "search term" file.txt`. You can use regular expressions - regex - with grep (a topic I'll cover in a future post). This [cheat sheet](https://ryanstutorials.net/linuxtutorial/cheatsheetgrep.php) is a great place to get started with regex. There's much more to using grep than I can cover here, but if you want more information [Alvin Alexander](https://alvinalexander.com/) has a great overview [here](https://alvinalexander.com/unix/edu/examples/grep.shtml).
