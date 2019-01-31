@@ -5,6 +5,8 @@ title: Using the Strava API
 
 [Strava API Playground](https://developers.strava.com/playground/)
 
+[Strava Labs](https://labs.strava.com/)
+
 [Pro Athletes on Strava](https://www.strava.com/pros)
 
 [Chris Froome on Strava](https://www.strava.com/pros/chrisfroome)
